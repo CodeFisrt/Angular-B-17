@@ -1,0 +1,136 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Kanit:ital,wght@1,100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Kanit:ital,wght@1,100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Kanit:ital,wght@1,100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Kanit:ital,wght@1,100&family=Oswald&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Kanit:ital,wght@1,100&family=Oswald&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Yellowtail&display=swap');
+  .row-1{
+    position: sticky;
+    top: 0%;
+}
+.middle-logo-2{
+    background-image: url(../mini-project/img/logo_2.png);
+}
+.slider-container {
+    position: relative;
+  }
+  .img{
+    height: 700px;
+  }
+  
+  
+  .slider-image {
+    position: relative;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    z-index: 1;
+  }
+  .heaing-1{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+
+    
+  }
+  .al-text{
+    margin-bottom: 200px;
+  }
+  .p-1{
+    font-family: 'Bona Nova', serif;
+    font-size: 30px;
+  }
+  .owl-next{
+    width: 79px;
+    height: 79px;
+    background: url(../mini-project/img/btn-next.png) no-repeat center center;
+    font-size: 0;
+    float: right;
+    margin-right: 18px;
+    position: relative;
+    opacity: 0.3;
+  }
+  .owl-pre{
+    width: 79px;
+    height: 79px;
+    background-image: url(../mini-project/img/btn-prev.png);
+    float: left;
+    margin-left: 18px;
+    position: relative;
+    opacity: 0.3;
+  }
+  .text-heding{
+    font-family: "Cabin";
+    line-height: 10px;
+
+  }
+  .head-about{
+    font-size: 50px
+  }
+  .para-tabel{
+    font-size: 20px;
+  }
+  .head-history{
+    font-family: "Great Vibes", serif;
+    color: #c0a756;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 62px;
+  }
+  .para-kitchn{
+    color: #c0a756;
+    
+  }
+  .history-para{
+    font-size: 17px;
+    line-height: 34px;
+    font-family: "Cabin", sans-serif;
+    color: #777777;
+    padding-left: 90px;
+  }
+  
+  .image-1{
+    width: 75%;
+    margin-left: 84px;
+  }
+  
+  .para-historyh{
+    font-size: 17px;
+    line-height: 34px;
+    font-family: "Cabin", sans-serif;
+    color: #777777;
+    padding-right: 84px;
+  }
+  /* .time-text{
+    background-image: url(../mini-project/img/background.jpg);
+    height: 800px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 40px; */
+    
+  
+  .time-table{
+    background-image: url(../mini-project/img/label-left.png);
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .operating-text{
+    margin-top: 23px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 20px;
+    /* color: #ffffff; */
+  }
+  .bl-text{
+    font-family: "Great Vibes", serif;
+    color: #B29859;
+    font-size: 24px
+  }

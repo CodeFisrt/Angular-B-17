@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Tilt+Neon&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="conainer-fluid">
+        <div class="row mt-2 row-1">
+            <div class="col-6">
+                <img src="../mini-project/img/logo_elixir.png" class="img-fluid ms-5" alt="">
+            </div>
+            <div class="col-6">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid display-end">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active nav-text" aria-current="page" href="#"
+                                        style="font-size: 20px; color: #777777;">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active  nav-text" href="#"
+                                        style="font-size: 20px; color: #777777;">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"
+                                        style="font-size: 20px; color: #777777;">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"
+                                        style="font-size: 20px; color: #777777;">Gallery</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"
+                                        style="font-size: 20px; color: #777777;">Reservations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"
+                                        style="font-size: 20px; color: #777777;">Location</a>
+                                </li>
+
+
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide">
+
+                    <!-- <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div> -->
+                    <div class="carousel-inner ">
+
+                        <div class="carousel-item active">
+                            <div class="slider-container ">
+                                <div class="slider-image">
+                                    <!-- <img src="slider-image.jpg" alt="Slider Image"> -->
+                                    <div class="logo">
+                                        <img src="../mini-project/img/logo_2.png" alt="Logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="../mini-project/img/img-1.jpg" class="d-block w-100 img" alt="...">
+                            <div class="carousel-caption d-none d-md-block al-text">
+                                <h2 class="heaing-1 text-light">Elixir exclusively food</h2>
+                                <p class="p-1">The Chef creates divine combinations.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../mini-project/img/img-2.jpg" class="d-block w-100 img" alt="...">
+                            <div class="carousel-caption d-none d-md-block al-text">
+                                <h5 class="heaing-1 text-light">Elixir exclusively food</h5>
+                                <p class="p-1">The Chef creates divine combinations</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <div class="owl-pre">pre</div>
+                        <span class="carousel-control-" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <div class="owl-next">next</div>
+                        <span class="carousel-control-" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="text-heding text-center">
+                    <h3 class="pb-5 head-about"> About</h3>
+                    <p class="para-tabel">We love restaurants as much as you do. That’s why we’ve been helping them fill
+                    </p>
+                    <p class="para-tabel"> tables since 1999.
+                        Welcome to elixir restaurant</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-6">
+                <h2 class="head-history">The History</h2>
+                <p class="history-para">The <span class="para-kitchn">History of Kitchens</span> and Cooks gives further
+                    intimation on Mr Boulanger usual menu, stating
+                    confidently that "Boulanger served salted poultry and fresh eggs, all presented without a tablecloth
+                    on small marble tables". Numerous commentators have also referred to the supposed restaurant owner's
+                    eccentric habit of touting for custom outside his establishment, dressed in aristocratic fashion and
+                    brandishing a sword</p>
+                <p class="history-para">According to Miss Spang, there is not a shred of evidence for any of it. She
+                    said: These legends just
+                    get passed on by hearsay and then spiral out of control. Her interest in <span
+                        class="para-kitchn">Boulanger</span> dates back to a
+                    history of food seminar in Paris in the mid-1990s</p>
+            </div>
+            <div class="col-6">
+                <img src="../mini-project/img/img-3.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active mb-5">
+                            <img src="../mini-project/img/img-11.jpg" class="d-block img-fluid image-1" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../mini-project/img/img-22.jpg" class="d-block  img-fluid image-1" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../mini-project/img/img-33.jpg" class="d-block  img-fluid image-1" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+
+                </div>
+            </div>
+            <div class="col-6">
+                <p class="para-historyh">The <span class="para-kitchn">History of Kitchens</span> and Cooks gives
+                    further intimation on Mr Boulanger usual menu, stating
+                    confidently that "Boulanger served salted poultry and fresh eggs, all presented without a tablecloth
+                    on small marble tables". Numerous commentators have also referred to the supposed restaurant owner's
+                    eccentric habit of touting for custom outside his establishment, dressed in aristocratic fashion and
+                    brandishing a sword</p>
+                <p class="para-historyh">According to Miss Spang, there is not a shred of evidence for any of it. She
+                    said: These legends just
+                    get passed on by hearsay and then spiral out of control. Her interest in <span
+                        class="para-kitchn">Boulanger</span> dates back to a
+                    history of food seminar in Paris in the mid-1990s</p>
+            </div>
+        </div>
+        <section class="time-text">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="head-timetabel d-flex justify-content-center">
+                        <span><img src="../mini-project/img/label-left.png" alt=""></span>
+                        <span>
+                            <h1 class="operating-text">OPENING HOURS</h1>
+                            <p class="ms-5 bl-text">Call For Reservations</p>
+                        </span>
+                        <span><img src="../mini-project/img/label-right.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5 justify-content-end">
+                    <h3>Sunday to Tuesday</h3>
+                    <p>09:00</p>
+                    <p>24:00</p>
+                </div>
+                <div class="col-2">
+                    <div class="divder">
+                        <span><img src="../mini-project/img/column-divider.png" alt=""></span>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <h3>Friday and Saturday</h3>
+                    <p>08:00</p>
+                    <p>03:00</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
