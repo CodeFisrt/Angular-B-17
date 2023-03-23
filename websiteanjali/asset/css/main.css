@@ -2,37 +2,37 @@
     margin: 10px;
     font-size: 18px;
 }
+
 .mainicon {
     position: relative;
-    left: 215px;
+    /* left: 215px; */
 }
-.div-btn{
+
+.div-btn {
     /* height: 51px; */
     height: fit-content;
     margin: 0px;
-    position:relative;
-    right: -244px;
+    position: relative;
+    /* right: -244px; */
 
-    
+
 }
-.navbar{
+
+.navbar {
     position: sticky;
     height: 51px;
 }
-.div-btn{
-    
+
+.div-btn {
+
     padding: 10px 0px;
 }
-.third{
-    background-image: url(img-2.jpg) 
-     ;
 
+.third {
+    background-image: url(img-2.jpg);
 }
-.div-construction building 
-{padding-top: 60px;
-    position:relative;
-    
 
-
-
+.div-construction building {
+    padding-top: 60px;
+    position: relative;
 }
