@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+
+.search-input{
+    margin-left: 18%;
+    
+    
+}
+
+.serach-div{
+    gap: 20px;
+    
+}
+
+.text1,.select-info{
+    border-style: none;
+    outline: none;
+}
+
+.icons a i{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.select-category{
+    width: 200px;
+}
+
+.mobile-img{
+    height: 596px;
+}
+
+.product-info{
+    background-color: white;
+}
+
+.font-rotate{
+    font-size:30px;
+}
+
+
+    
