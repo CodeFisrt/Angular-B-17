@@ -8,7 +8,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Kanit:ital,wght@1,100&family=Oswald&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Kanit:ital,wght@1,100&family=Oswald&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Cabin:ital@1&family=Great+Vibes&family=Yellowtail&display=swap');
-
+body{
+  margin: 0px;
+  padding: 0px;
+}
   .row-1{
     position: sticky;
     top: 0%;
@@ -57,7 +60,7 @@
     position: relative;
     opacity: 0.3;
   }
-  .owl-pre{
+   .owl-pre{
     width: 79px;
     height: 79px;
     background-image: url(../mini-project/img/btn-prev.png);
@@ -65,6 +68,13 @@
     margin-left: 18px;
     position: relative;
     opacity: 0.3;
+    background-color: none;
+  } 
+
+  a[aria-current='page']{
+    font-weight: 25px;
+    font-size: 20px;
+    color: white;
   }
   .text-heding{
     font-family: "Cabin";
@@ -114,15 +124,17 @@
     width: 100%;
     padding-top: 100px;
     padding-bottom: 40px; */
-    
+    .ancer{
+
+    }
   
-  .time-table{
+  /* .time-table{
     background-image: url(../mini-project/img/label-left.png);
     height: 100px;
     width: 200px;
     background-repeat: no-repeat;
     background-size: contain;
-  }
+  } */
   .operating-text{
     margin-top: 23px;
     font-family: 'Oswald', sans-serif;
@@ -135,3 +147,124 @@
     color: #B29859;
     font-size: 24px
   }
+ .day-time{
+  padding-left: 70%;
+ }
+ .day-time-2{
+  padding-right: 75%;
+ }
+ .day{
+  font-family: "Great Vibes", serif;
+  color: #c0a756;
+  font-size: 43px;
+  width: 151px;
+  line-height: 48px;
+ }
+ .time{
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+ }
+ .time-text{
+  height: 900px;
+  width: 100%;
+  background-image: url(img/background.jpg);
+ }
+ .reserv-text{
+  font-weight: 400;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    position: fixed;
+ }
+ .prime-text{
+  text-transform: uppercase;
+  font-family:"Oswald", sans-serif ;
+  color: #887025;
+  font-size: 24px;
+    font-weight: 400;
+    padding-left: 40px;
+ }
+  .li-text {
+  text-transform: uppercase;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #0c0901;
+  margin-bottom: 20px;
+}
+.heading{
+  font-size: 19px;
+    font-weight: 500;
+}
+.price{
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 18px;
+  color: #bfa760;
+  float: right;
+  text-align: left;
+  margin-right: 66px;
+
+}
+.detail{
+  font-size: 14px;
+}
+.menu{
+  height: 600px;
+  width: 100%;
+  background-image: url(img/menu_right.jpg),url(img/menu_left.jpg);
+  background-repeat: no-repeat;
+  background-position: top right,top left;
+}
+.main-dev{
+  
+  width: 100%;
+  background-color: rgb(10, 1, 1)
+  
+}
+.button{ 
+  font-family: "Cabin", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 21px;
+  color: #bfa760;
+  border: 2px solid #bfa760;
+  background: transparent;
+  font-weight: 78px;
+  font-weight: 500;
+  width: 260px;
+  height: 65px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+}
+.gallery{
+  margin-top: 110px;
+}
+.picture{
+   display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    max-width: 650px; 
+    padding: 0px 92px;
+}
+ul.primary-nav{
+  font-family: "Cabin", sans-serif;
+  font-size: 20px;
+  
+}
+.selected{
+  font-family: "Cabin", sans-serif;
+}
+
+.reservation{
+  font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #383733;
+}
+.booking{
+  font-size: 18px;
+    color: #777777;
+    font-family:"Oswald", sans-serif;
+}
