@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color:#f8f8f8;
 }
 
 .search-input{
@@ -33,10 +33,16 @@ body{
 
 .product-info{
     background-color: white;
+    width: 98.5%;
+    margin: 0;
 }
 
 .font-rotate{
     font-size:30px;
+}
+
+.section1{
+    width: 98.5%;
 }
 
 
