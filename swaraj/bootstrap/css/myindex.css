@@ -45,5 +45,29 @@ body{
     width: 98.5%;
 }
 
+.sports{
+    background-image: url('/swaraj/img/sport.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 462px;
+    }
+
+.sports ul li a:hover{
+    color: gray;
+}
+
+.pro-bar{
+    width:40%;height:10px;
+}
+
+.earphoneimg{
+    height: 194px;
+}
+
+.gameboximg{
+    height: 220px;
+
+}
+
 
     
