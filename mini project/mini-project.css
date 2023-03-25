@@ -1,0 +1,141 @@
+.img-div img {
+    height: 130px;
+    width: 120px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.section-1 img {
+    width: 100%;
+    height: 550px;
+}
+
+.section-2 img {
+    width: 100%;
+    height: 550px;
+}
+
+.banner-img img {
+    width: 100% !important;
+    height: 350px !important;
+}
+
+.card-img-overlay1 {
+    position: absolute !important;
+    /* top: 0; */
+    right: 0 !important;
+    bottom: 10px !important;
+    left: 0 !important;
+    padding: var(--bs-card-img-overlay-padding) !important;
+    border-radius: var(--bs-card-inner-border-radius) !important;
+}
+
+.card img:hover {
+    opacity: 0.4;
+}
+
+.banner-img1 img {
+    width: 100% !important;
+    height: 250px !important;
+}
+
+.cotton img {
+    width: 100%;
+    height: 400px;
+}
+
+.sale {
+    font-size: 180px;
+    font-weight: 300;
+}
+
+.position {
+    position: absolute !important;
+    left: 25% !important;
+    background-color: #cf987e !important;
+    border-radius: 0% !important;
+}
+
+.nav-two li :hover {
+    list-style: none;
+    border: solid #cf987e 2px;
+    color: black;
+}
+
+.tree-1 {
+    height: 114px !important;
+}
+
+.text-yellow {
+    color: gold;
+}
+
+.view {
+    border: none;
+    border-bottom: 2px !important;
+}
+
+.tree {
+    height: 272px !important;
+}
+
+.letest-1 {
+    font-weight: 400 !important;
+    font-size: 50px;
+}
+
+.snow {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.trending .decorative:hover {
+    /* opacity: 0.4; */
+    color: #cf987e !important;
+}
+
+.present {
+    font-weight: 100;
+    color: rgb(131, 128, 128);
+}
+
+.trending-1 .decorative-1:hover {
+    color: #cf987e !important;
+}
+
+.present-1 {
+    font-weight: 100;
+    color: rgb(131, 128, 128);
+}
+
+.protect {
+    font-weight: 100;
+    color: rgb(131, 128, 128);
+}
+
+.protect img {
+    height: 100px !important;
+    width: 100px !important;
+    margin: auto;
+}
+
+.world {
+    font-size: 15px;
+    color: rgb(19, 18, 18);
+}
+
+.company-1 .company li .link:hover {
+    color: #cf987e;
+}
+
+.email {
+    border: none;
+}
