@@ -1,0 +1,68 @@
+
+.body{
+    font-family:sans-serif;
+    
+
+}.last-page{
+    display: flex;
+    margin: 83px;
+}
+.logo .img{
+    height: 70px;
+    width: 109px;
+}
+.logo p{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #575757;
+}
+.fas {
+    font-size: 12px;
+}
+.list{
+    display: flex;
+    list-style: none;
+margin-left: 35px;
+}
+.list p{
+    font-size: 17px;
+
+}
+.list1{
+    margin-left: 37px;
+    list-style: none;
+    color: #575757;
+    font-size: 13px;
+
+}
+.btn{
+    margin: 1px;
+    height: 34px;
+    padding: 7px;
+    
+    border:solid black 1px;
+}
+.footer{
+    margin-left: 78px;
+    display: flex;
+    color: #575757;
+}
+.footer p{
+    margin-top: -4px;
+    font-size: 13px;
+}
+.ft-List{
+    list-style: none;
+    display: flex;
+    margin-left: 23pc;
+
+}
+.ft-List .fab{
+    padding: 2px;
+    text-align: center;
+    border: 2px solid gray;
+    height: 23px;
+    width: 25px;
+    border-radius: 5px;
+    margin: 2px;
+}
