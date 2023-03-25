@@ -1,0 +1,20 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 352px) {
+    .text-heding {
+        line-height: 50px;
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {}
+
+
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 1400px) {}
