@@ -61,7 +61,7 @@ body {
 .owl-next {
   width: 79px;
   height: 79px;
-  background: url(../mini-project/img/btn-next.png) no-repeat center center;
+  background: url(img/btn-next.png) no-repeat center center;
   font-size: 0;
   float: right;
   margin-right: 18px;
@@ -72,7 +72,7 @@ body {
 .owl-pre {
   width: 79px;
   height: 79px;
-  background-image: url(../mini-project/img/btn-prev.png);
+  background-image: url(img/btn-prev.png);
   float: left;
   margin-left: 18px;
   position: relative;
@@ -382,4 +382,7 @@ input[type='submit'] {
 }
 .fotter-end{
   height: 200px;
+}
+.next-btn{
+  
 }
