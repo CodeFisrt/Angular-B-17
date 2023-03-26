@@ -79,3 +79,184 @@ body{
     line-height: 1.5rem;
     font-size: 18px;
 }
+/* second small card */
+.rounded {
+    border-radius: 10px !important;
+}
+.widget {
+    border: solid 1px #EBEBEB;
+    padding: 35px 30px;
+    margin-bottom: 40px;
+}
+.widget-content{
+    height: 320px;
+}
+.post.post-list-sm {
+    clear: both;
+}
+.post.post-list-sm.circle .thumb {
+    max-width: 60px;
+    float: left;
+    position: relative;
+}
+.widget-content .thumb .number{
+    color: #FFF;
+    display: block;
+    border: solid 2px #FFF;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 700;
+    height: 24px;
+    line-height: 22px;
+    left: 0;
+    text-align: center;
+    top: -10px;
+    position: absolute;
+    width: 24px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    background: #FE4F70;
+    background: linear-gradient(to top, #FE4F70 0%, #FFA387 100%);
+    z-index: 1;
+}
+.post .thumb.circle .inner {
+    overflow: hidden;
+    border-radius: 50%;
+}
+.post.post-list-sm.circle .details {
+    margin-left: 80px;
+}
+.post.post-list-sm .post-title {
+    font-size: 20px;
+}
+.post a{
+    text-decoration: none;
+    color: #203656;
+}
+.post .meta {
+    font-size: 14px;
+    color: #9faabb;
+}
+.list-inline-item {
+    display: inline-block;
+}
+/* section inspiration */
+.widget-content ul.list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.widget-content .list li {
+    line-height: 2.8rem;
+    list-style: none;
+}
+.widget-content .list li i{
+    color: #FE4F70 !important;
+}
+.newsletter-headline {
+    font-size: 15px;
+    font-weight: bold;
+    color: #203656;
+    display: block;
+}
+.widget-newlatter{
+    height: 330px;
+}
+.widget-content .email-div .email{
+    border-radius: 20px;
+}
+.btn-full {
+    padding: 9.5px 36px;
+    width: 100%;
+}
+.btn-default {
+    color: #FFF;
+    padding: 9.5px 36px;
+    background: #FE4F70;
+    background: linear-gradient(to right, #FE4F70 0%, #FFA387 51%, #FE4F70 100%);
+    background-size: 200% auto;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.btn-default:hover{
+    color: aliceblue !important;
+}
+.newsletter-privacy {
+    font-size: 13px;
+    display: block;
+}
+.newsletter-privacy .anchor{
+    color: #FE4F70;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.newsletter-privacy .anchor:hover{
+    color: lightgreen;
+}
+/* section culture */
+.widget-content .div-img img{
+    width: 294px;
+    border-radius: 20px;
+}
+.div-text h4{
+    color: #203656;
+}
+.katen-div img{
+    height: 280px;
+}
+/* section lifestyle */
+.tag-div{
+    height: 220px !important;
+}
+.tag {
+    color: #8F9BAD;
+    border: solid 1px #EBEBEB;
+    border-radius: 25px;
+    font-size: 13px;
+    display: inline-block;
+    padding: 3px 14px;
+    margin: 4px 10px;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.tag:hover{
+    color: #FE4F70;
+    border: solid 1px #FE4F70;
+}
+/* section insta */
+.instagram-feed {
+    margin-left: -2.5px;
+    margin-right: -2.5px;
+}
+.instagram-feed .insta-item {
+    overflow: hidden;
+    padding-left: 1px;
+    padding-right: 0px;
+}
+a { 
+    color: #FE4F70;
+    outline: 0;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.instagram-feed .insta-item img {
+    border-radius: 10px;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+/* footer section */
+.button-div button{
+    border-radius: 20px;
+    padding: 4px 15px;
+    transition: all ease 0.3s;
+    border: 1px solid #9faabb;
+    color: #9faabb;
+    background-color: transparent;
+}
+.social-icons i:hover{
+    color: #FE4F70;
+    cursor: pointer;
+}
+.button-div button:hover{
+    border-color: #FE4F70;
+    color: #FE4F70;
+}
