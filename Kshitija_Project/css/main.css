@@ -338,11 +338,18 @@ body {
 .hotel-form .hotel-form-button{
     background-color: #aa8453;
 }
-.hotel-booking-form .hotel-form-img img{
-    height: 200px;
-    width: 200px;
+.hotel-booking-form-img{
+    height: 100px;
 }
-.hotel-booking-form .hotel-form-img {
-    bottom: 40px;
+.hotel-booking-form-img .hotel-form-img img{
+    height: 160px;
+    width: 160px;
+}
+/* footer */
+.footer-wrapper .footer-wrapper-about p{
+    color: #adadad;
+}
+.footer-wrapper .footer-wrapper-about button{
+    color: #adadad;
 }
 
