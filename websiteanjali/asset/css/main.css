@@ -9,6 +9,7 @@ font-family: 'Source Sans Pro', sans-serif; */
     width: 1365px;
 
 }
+<<<<<<< HEAD
 .first-wrap{
      margin-left: 280px;
 
@@ -98,3 +99,39 @@ font-family: 'Source Sans Pro', sans-serif; */
     font-family: 'Playfair Display,sans-serif';
    
 }
+=======
+
+.mainicon {
+    position: relative;
+    /* left: 215px; */
+}
+
+.div-btn {
+    /* height: 51px; */
+    height: fit-content;
+    margin: 0px;
+    position: relative;
+    /* right: -244px; */
+
+
+}
+
+.navbar {
+    position: sticky;
+    height: 51px;
+}
+
+.div-btn {
+
+    padding: 10px 0px;
+}
+
+.third {
+    background-image: url(img-2.jpg);
+}
+
+.div-construction building {
+    padding-top: 60px;
+    position: relative;
+}
+>>>>>>> 5f0726cb41f70f90d8173820136a27a161f07387
