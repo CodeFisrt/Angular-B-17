@@ -1,9 +1,119 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Shantell Sans', cursive; */
 
-toggle::after{
-    transform: rotate(270deg);
+body{
+    margin: 0px;
+    padding: 0px;
+    /* font-weight: 600; */
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
-.home-img{
+
+.main-banner{
+    position: relative;
+    z-index: 1;
+    background: url(../image/background-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    height: 900px;
+}
+
+.text-content{
+    color:  orangered;
+}
+
+.about-img{
+    width: 100%;
+}
+.img6 img{
+    transform: translate(-170px, 147px);
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav_search i{
+    transform: translate(-29px, 0px);
+    
+}
+.nav_search input{
+    border: none;
+    background: lightgrey;
+    border-radius:2px;
+    height: 3rem;
+}
+.nav-btn{
+    display: flex;
+    flex-direction: row;
+}
+.nav-btn button{
+  width: 12rem;
+  height: 3rem;
+  color: white;
+  background-color: orangered;
+  /* font-size: 10px; */
+}
+
+.navlist a{
+    color: black;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar ul li:hover{
+    color:  orangered;
+}
+.btn-start button:hover{
+    background-color: black;
+    color: white;
+}
+.button_services{
+    color:  orangered;
+
+}
+.video{
+    color:  orangered;
+}
+.video_btn{
+    border: none;
+    color:orangered;
+    background: transparent;
+} 
+
+.solution_card h3:hover{
+    color:orangered; 
+}
+
+.revolution{
+    width: 38% ;
+}
+.button-start button{
+    color: orangered; 
+    border: 1px solid  #eae1d6; 
+}
+.button-start button:hover{
+    background-color: orangered ;
+    color: white;
+}
+.btn-about button{
+    background-color:orangered; 
+    color: white;
+}
+.btn-about button:hover{
+    background-color: black;
+}
+.circle_shape2{
     position: absolute;
-    margin-right: 200px;
-    list-style: none;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
 }
+
