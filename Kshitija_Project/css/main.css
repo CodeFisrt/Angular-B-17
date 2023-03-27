@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.icon-color{
+    color: #d6ba05;
+}
+
+.gilda-font{
+    font-family: 'Gilda Display', serif;;
+}
+
+.barlow-font{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+/* navbar */
+.header{
+    height: 80%;
+}
+
+.image-wrapper img {
+    height: 100%;
+    width: 100%;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.bg-carousal-img {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-indicators [data-bs-target] {
+    bottom: 20%;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    margin: 20% 0;
+}
+
+.caption span {
+    line-height: 100px;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.caption .hotel-name {
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+
+.caption h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 16px;
+    line-height: 80px
+}
+
+.caption .btn {
+    font-family: var(--barlow);
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.caption .btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* reservation */
+.reservation {
+    position: absolute;
+    bottom: 20%;
+    margin-left: 20px;
+    writing-mode: vertical-lr;
+    height: 60%;
+    transform: rotate(180 deg);
+}
+
+.reservation .call {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 20px;
+    line-height: 10px;
+    rotate: 180deg;
+    position: relative;
+    bottom: 50%;
+}
+
+.reservation .call span {
+    font-size: 34px;
+     letter-spacing: 1px
+}
+
+.reservation .icon i {
+    position: absolute;
+    top: 60%;
+    font-size: 30px;
+}
+
+/* about */
+.about-wrapper {
+    margin-top: 150px;
+}
+
+.about-content .about-title p {
+    letter-spacing: 10px;
+}
+
+.about-content .about-icon i {
+    letter-spacing: 10px;
+}
+
+.about-content .about-title h1 {
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.about-contact-call p {
+    color: #d6ba05;
+    font-size: 25px;
+}
+
+.about-img1 img {
+    height: 400px;
+    width: 270px;
+    margin-top: 100px;
+
+}
+
+.about-img2 img {
+    height: 400px;
+    width: 280px;
+}
+/* room */
+.room-wrapper{
+    background-color: #f8f5f0;
+}
+
+.room-wrapper-heading h6{
+    color: #666;
+    letter-spacing: 7px;
+
+}
+
+.room-wrapper-footer h1,h3{
+    letter-spacing: 3px;
+}
+
+.room-wrapper-icon span{
+    letter-spacing: 2px;
+}
+
+.room-wrapper-book{
+    display: inline-block;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+}
+
+/* extra-service */
+.extra-service-wrapper{
+    background-color: #222;
+    color: #222222;
+}
+.extra-service-title h5{
+    color:#aa8453 ;
+    letter-spacing: 6px;
+}
+
+.extra-service-paragraph{
+    color:#adadad;
+}
+
+.extra-service-icon i{
+    font-size: 40px;
+    color: #8e6d45;
+
+}
+.extra-service-contact span{
+    color: white;
+}
+.extra-service-contact p{
+  color: #8e6d45;
+  font-size: 27px;
+  letter-spacing: -1px;
+}
+
+.card-body-wrapper{
+    background-color: #f8f5f0;
+}
+
+
+
+/* promotional-video- */
+.promotional-video-wrapper{
+    background-image: url(/img/promotional-video.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.promotional-video-heading{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.promotional-video-heading h6{
+    font-family: var(--barlow);
+    letter-spacing: 6px;
+}
+
+.promotional-video-heading .video-wrapper i:hover{
+    background-color: #aa8453;
+   
+}
+/* hotel-facilities */
+
+.hotel-facilities-heading h6{
+    letter-spacing: 6px;
+
+}
+.hotel-facilities-heading h2{
+    font-size: 50px;
+}
+/* search-room */
+.search-room-wrapper{
+    background-color: #f8f5f0;
+}
+.search-room-wrapper .search-room-heading{
+    letter-spacing: 6px;
+}
+.search-room-wrapper .button-wrap{
+    background-color: #aa8453;
+}
+.search-room-wrapper .button-wrap button{
+    letter-spacing: 5px;
+}
+
+/* testimonials-wrapper */
+.testimonials-wrapper{
+    background-image: url(/img/promotional-video.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+.testimonials-heading{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    color: white;
+}
+.testimonials-heading .hr{
+    width: 10%;
+}
+.testimonials-heading .testimonials-subtitle{
+    letter-spacing: 5px;
+}
+.testimonials-heading .testimonials-para{
+    width: 80%;
+    letter-spacing: 1px;
+   
+}
+.testimonials-heading .testimonials-img img{
+    height: 60px;
+    width: 60px;
+}
+/* discover-wrapper */
+.discover-wrapper .discover-img img{
+    height: auto;
+    width: 100%;
+}
+.discover-heading .discover-subtitle{
+    color: #666;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.discover-heading .discover-para{
+    color: #666;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.discover-heading .discover-button button{
+    background-color: #ab8a62;
+    color: white;
+}
+.discover-wrapper .bg-color{
+    background-color: #f8f5f0;
+}
+/* hotel-blog */
+.hotel-blog{
+    background-color: #222222;
+}
+.hotel-blog-heading .hotel-blog-subtitle{
+    letter-spacing: 7px;
+}
+.hotel-blog-heading-card{
+   bottom: 60px;
+   background-color: #f8f5f0;
+   border: 1px solid #f8f5f0;
+   
+}
+.hotel-blog-heading-card .hotel-blog-img-subtitle{
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+/* hotel booking form */
+.hotel-booking-form{
+    background-image: url(../img/hotel-form-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.hotel-booking-form .hotel-form{
+    background-color: #f8f5f0;
+    width: 80%;
+    margin-left: 20%;
+}
+.hotel-form .hotel-form-button{
+    background-color: #aa8453;
+}
+.hotel-booking-form .hotel-form-img img{
+    height: 200px;
+    width: 200px;
+}
+.hotel-booking-form .hotel-form-img {
+    bottom: 40px;
+}
+
