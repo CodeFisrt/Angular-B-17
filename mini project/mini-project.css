@@ -2,6 +2,9 @@
     height: 130px;
     width: 120px;
 }
+.text-black{
+    margin-bottom: 100px;
+}
 
 .nav-item {
     list-style: none;
