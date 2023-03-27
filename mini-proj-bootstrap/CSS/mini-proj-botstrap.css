@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header-hr{
+    color: crimson;
+    
+}
+.bg-img-page1{
+    background-image: url(../../mini-proj-bootstrap/Images-mini-proj/Page-1/bg-img.jpg);
+    height: 100%;
+    width: 100%;
+
+}
+/* .h1-font{
+    font-size: 80px;
+} */
+.book-now{
+    margin-right: 170px;
+    margin-top: 26px;
+}
+/* .padding-book-now{
+
+} */
+.book-now a{
+    padding: 28px 10px;
+}
