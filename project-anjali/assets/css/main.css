@@ -1,0 +1,132 @@
+
+.main-header{
+    width: 1300px
+}
+.img{
+    height:35px;
+    width: 192px;
+}
+.heading{
+    font-size:17px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.para{
+    font-size:14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.nav-item{
+    font-size:14px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.container-nivo{
+    background-image: url(../image/img-2.jpg);
+    height: 780px;
+    width: 1348px;
+}
+.Constrution-heading{
+    position: relative;
+    padding-left: 62px;
+    padding-top: 150px;
+}
+.main-heading{    
+    font-weight: 700;
+    font-size: 94px;
+    font-family: 'Playfair Display', serif;}
+.better{
+    font-size: 70px;
+}
+.c-para{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+.btn-sec{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.about{
+    width: max-content;
+}
+.img-about{
+    padding-left: 49px;
+}
+.sub-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.sub-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.sub-para{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.sub-tilte {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.list-group-item{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.testmonial-img{ 
+    height: 719px;
+
+
+}
+.test{
+    background-color:  #eff3fa;
+}
+.sub-heading-test{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+
+
+
+}
+.title-test{
+    font-family: 'Playfair Display', serif;
+font-weight: 700; }
+.letstalk{
+    background-image: url(../image/img-4.jpg);
+    width: 100%;
+    height: 300PX;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lets-head{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+
+}
+.news-sub-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+
+}
+.news-blog-heading{ 
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+}
+.card-img-top{
+    height: 372px;
+    width: 491x;
+}
+.date.admin{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+
