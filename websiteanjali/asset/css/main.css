@@ -1,0 +1,38 @@
+.fb {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.mainicon {
+    position: relative;
+    /* left: 215px; */
+}
+
+.div-btn {
+    /* height: 51px; */
+    height: fit-content;
+    margin: 0px;
+    position: relative;
+    /* right: -244px; */
+
+
+}
+
+.navbar {
+    position: sticky;
+    height: 51px;
+}
+
+.div-btn {
+
+    padding: 10px 0px;
+}
+
+.third {
+    background-image: url(img-2.jpg);
+}
+
+.div-construction building {
+    padding-top: 60px;
+    position: relative;
+}
