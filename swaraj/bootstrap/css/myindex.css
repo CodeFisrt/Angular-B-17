@@ -151,10 +151,13 @@ body{
     text-decoration: none;
 }
 
+.feature li a{
+    color:gray;
+}
 
 .feature li a:hover{
     cursor: pointer;
-    color:red;
+    color:black;
 }
 
 

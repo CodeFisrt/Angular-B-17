@@ -13,7 +13,9 @@ custom
         height: auto;
     }
 
-    
+    .information{
+        text-align: start;
+    }
  }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
@@ -34,6 +36,12 @@ custom
 @media (min-width: 1200px) { 
     .mobile-img {
         height: 596px;
+    }
+
+    .information{
+        text-align: center;
+        margin: 0 auto;
+        
     }
  }
 
