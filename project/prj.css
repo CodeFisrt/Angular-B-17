@@ -78,10 +78,14 @@ ul li a:hover{
 }
 .slide1 {height: 480px;}
 
-.all-btn1:hover{
-    background-color: orangered !important;
+.all-btn1 button{
+    color: orange !important;
 }
- .all-btn1 button{color: orangered !important;} 
+.all-btn1 button:hover{
+    background-color: navy !important;
+    color: navy !important;
+    cursor: pointer;
+}
 .cd-h{
     width: 30% !important;
 }
@@ -111,3 +115,12 @@ background-image: url("https://templates.envytheme.com/tracer/default/assets/img
     width: 365px;
 }
 .radious{border-radius: 50%;}
+.list-none li{
+   list-style: none;
+}
+.sec-2{
+    height: 1000px;
+}
+.sec-3{
+    height: 600px;
+}
