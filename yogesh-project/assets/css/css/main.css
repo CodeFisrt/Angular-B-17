@@ -1,0 +1,97 @@
+.row {
+    color: aliceblue;
+    background-color: #002e5b;    ;
+
+}
+
+.heading-1 {
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 16px;
+
+}
+
+.Career-text {
+    display: flex;
+    padding-top: 10px;
+}
+
+.Career {
+    font-size: 20px;
+    color: white
+}
+
+.email-text {
+    margin-bottom: 0px;
+}
+.bi-telephone{
+    color: white;
+    background-color: blue;
+}
+
+.Call-text {
+    margin-bottom: 0px;
+}
+
+.gate-t {
+    background-color: #2ab9f9;
+    ;
+    color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 15px;
+}
+
+/* .email{
+        width: 20px;
+        height: 30px; */
+
+.logo-truz {
+    width: 25px;
+    height: 20px;
+}
+.bi-search{
+    color: black;
+}
+.heading-2 {
+    justify-content: space-between;
+    padding: 35px;
+    background-color: aliceblue;
+}
+
+.a-text {
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.card-text {
+    justify-content: space-around;
+}
+
+.umbrella-img {
+    /* background-color: aliceblue; */
+    margin-top: -200px;
+    align-items: center;
+    margin-top: -200px;
+}
+
+.umbrella-icon {
+    position: absolute;
+    margin-top: -200px;
+}
+.Uicon{
+    margin-top: -200px;
+    width: 102px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* }
+   /* .mt-neg-133{
+    margin-top: -133px;
+opacity: 0.4;   
+} */
