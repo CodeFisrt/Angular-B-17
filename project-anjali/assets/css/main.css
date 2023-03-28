@@ -1,7 +1,7 @@
-.body{ padding: 0px;}
-.main-header{
-    width: 1300px
-}
+.body{ padding: 0px}
+
+   
+
 .img{
     height:35px;
     width: 192px;
@@ -24,7 +24,7 @@
 .container-nivo{
     background-image: url(../image/img-2.jpg);
     height: 780px;
-    width: 1348px;
+ 
 }
 .Constrution-heading{
     position: relative;
@@ -121,8 +121,6 @@ font-weight: 700; }
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-
-    
 }
 
 
