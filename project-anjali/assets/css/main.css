@@ -1,4 +1,4 @@
-
+.body{ padding: 0px;}
 .main-header{
     width: 1300px
 }
@@ -76,8 +76,6 @@
 }
 .testmonial-img{ 
     height: 719px;
-
-
 }
 .test{
     background-color:  #eff3fa;
@@ -86,9 +84,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 16px;
-
-
-
 }
 .title-test{
     font-family: 'Playfair Display', serif;
@@ -104,19 +99,14 @@ font-weight: 700; }
 .lets-head{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-
-
 }
 .news-sub-heading{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-
-
 }
 .news-blog-heading{ 
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-
 }
 .card-img-top{
     height: 372px;
@@ -126,7 +116,16 @@ font-weight: 700; }
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-
 }
+.blog-content{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+    
+}
+
+
+
 
 
