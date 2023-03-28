@@ -353,3 +353,21 @@ body {
     color: #adadad;
 }
 
+.footer-wrapper .footer-wrapper-explore ul li a{
+    color: #adadad;
+}
+.footer-wrapper .footer-wrapper-explore ul li a:hover{
+   
+   color: #d6ba05;
+}
+.footer-wrapper .footer-wrapper-explore ul li:hover{
+   list-style-type: disc;
+   list-style-position: inside;
+    color: #d6ba05;
+ }
+ .footer-wrapper .footer-wrapper-contact p,i,a{
+    color: #adadad;
+ }
+ .footer-wrapper-copyright{
+    background-color: black;
+ }
