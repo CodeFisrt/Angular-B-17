@@ -2,8 +2,17 @@
     height: 130px;
     width: 120px;
 }
-.text-black{
+
+.black {
     margin-bottom: 100px;
+}
+
+.font {
+    font-size: 70px;
+}
+
+.black .shop:hover{
+    background-color: #cf987e !important;
 }
 
 .nav-item {
