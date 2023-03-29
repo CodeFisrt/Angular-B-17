@@ -1,0 +1,331 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+   
+}
+/* frist section */
+.main-section {
+    background-image: url("images/hero-bg\ \(5\).jpg");
+    width: 100%;
+    height: 670px;
+    position: relative;
+    color: white;
+}
+
+.fean-1 {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 60px;
+    color: white;
+
+}
+.fean-text{
+    font-family: 'Dancing Script', cursive; 
+}
+
+.nav-bar {
+    font-size: 22px;
+}
+
+li:hover {
+    color: orange;
+}
+
+.logo-wrap-1:hover {
+    color: orange;
+    font-size: 20px;
+}
+
+.logo-wrap-2:hover {
+    color: orange;
+}
+
+.logo-wrap-3:hover {
+    color: orange;
+}
+
+.main-btn {
+    border-radius: 25px;
+    font-size: 22px;
+    color: white;
+}
+
+.fean-text {
+    font-size: 50px;
+}
+
+.fean-text-1 {
+    font-size: 20px;
+}
+
+.btn-1 {
+    border-radius: 25px;
+    font-size: 22px;
+    color: white;
+}
+.carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    
+
+}
+.carousel-indicators{
+   position: absolute;
+   right: 60%;
+}
+.slider-section .carousel-indicators button.active {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #ffbe33;
+}
+
+
+/* section */
+ 
+
+
+.offer-section {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+
+
+}
+
+.box {
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 75px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.img-box {
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+    margin-left: 10px;
+}
+
+.img-box-1 {
+    height: 200px;
+    width: 200px;
+    border: 5px solid orangered;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.detail-box-h5 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.detail-box-h6 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.detail-box-h7 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.button-3 {
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 30px;
+    color: white;
+    font-size: 26px;
+}
+/* section-3 */
+
+.food-section {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+.div-menu {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.filter-menu {
+
+    font-size: 25px;
+}
+
+.food-section .filters-menu li.active {
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid ;
+    background-color: black;
+    color: white;
+}
+.img-body{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0 40px;
+}
+.img-1{
+    height: 200px;
+    width: 320px;
+    padding-top: 7px;
+    padding-left: 55px;
+}
+
+.text-img-wrap-1{
+    color: white;
+    height: 200px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    
+}
+.para-1{
+    font-size: 20px;
+}
+.logo-1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding-top: 6px;
+    padding-left: 4px
+}
+/* section-4 */
+.read-more{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+}
+.read-wrap{
+    color: white;
+    text-align: center;
+}
+.read-h1{
+    font-family: 'Dancing Script', cursive;
+    
+    font-size: 60px; 
+
+}
+.read-p1{
+    font-size: 20px;
+
+}
+.btn-4{
+    color: white;
+    border-radius: 30px;
+    font-size: 26px;
+}
+/* booking section-5 */
+.booking-table{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+input {
+    border-radius: 6px;
+    border: 1px solid #999;
+    /* height: 50px; */
+    color: #000000;
+    
+}
+select{
+    border-radius: 6px;
+}
+.book-btn{
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.map-wrap{
+    height: 360px;
+    width: 650px;
+   
+    border-radius: 10px;
+}
+
+.ok-btn{
+    text-decoration: none;
+}
+.google-card{
+    height: 200px;
+    width: 390px;
+    background-color: white;
+    color: black;
+}
+/* section-6 */
+.customer{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.customer-h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.customer-text-wrap{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.customer-text-wrap h1{
+    font-size: 25px;
+}
+.customer-img-1{
+    height: 195px;
+    width: 195px;
+    
+}
+.prev-btn{
+    height: 50px;
+    width: 50px;
+    
+}
+.next-btn{
+    height: 50px;
+    width: 50px;
+    
+}
+/* section-7 */
+.contact-details{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+
+}
+.contact-div{
+  color: white;
+}
+.contact-div-1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.contact-div-2{
+    font-size: 20px;
+}
+.social-logo{
+   font-size: 30px;
+}
+.info-div-1{
+    color: white;
+    font-size: 20px;
+}
