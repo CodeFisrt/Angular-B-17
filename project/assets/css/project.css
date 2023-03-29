@@ -105,15 +105,23 @@ body{
 .btn-about button:hover{
     background-color: black;
 }
-.circle_shape2{
+.section3_img{
     position: absolute;
-    
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 100%;
-    height: auto;
     z-index: -1;
+    background-position: top right;
+    background-size: contain;
+    transform: translate(396px, -330px);
+
+}
+.our_seavices{
+    background-color: #f1f8fb;
+    z-index: 1;
+}
+.circle_shape-2{
+     position: absolute;
+    z-index: 2;
+    background-position: top left;
+    background-size: contain;
+    transform: translate(8px, -498px);
 }
 
