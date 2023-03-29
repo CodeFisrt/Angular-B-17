@@ -14,15 +14,19 @@
 .Career-text {
     display: flex;
     padding-top: 10px;
+    color:blue;
 }
-
-.Career {
+.Career{
+    color: white;
+}
+.Career:hover {
     font-size: 20px;
-    color: white
+    color: #2ab9f9;
 }
 
 .email-text {
     margin-bottom: 0px;
+    margin-left: 15px;
 }
 .bi-telephone{
     color: white;
@@ -31,6 +35,7 @@
 
 .Call-text {
     margin-bottom: 0px;
+    margin-left: 15px;
 }
 
 .gate-t {
@@ -43,7 +48,10 @@
     padding-bottom: 13px;
     border-radius: 15px;
 }
-
+.gate-t:hover{
+    color:black;
+    background-color: white;
+}
 /* .email{
         width: 20px;
         height: 30px; */
@@ -54,6 +62,11 @@
 }
 .bi-search{
     color: black;
+}
+.nav-2{
+    position: sticky;
+    top: 0px;
+    /* background-color: white; */
 }
 .heading-2 {
     justify-content: space-between;
@@ -81,6 +94,9 @@
     position: absolute;
     margin-top: -200px;
 }
+.three-img{
+    background-color: white;
+}
 .Uicon{
     margin-top: -200px;
     width: 102px;
@@ -95,3 +111,74 @@
     margin-top: -133px;
 opacity: 0.4;   
 } */
+/* .example2 {
+    border: 1px solid;
+    padding: 35px;
+    box-shadow: 5px 0px 10px #888888;
+  } */
+ .lorem-text{
+justify-content:space-between;
+ }
+ .Lorem-t{
+    color: black;
+ }
+ .Trust{
+    color: #002e5b;
+ }
+ .img-lorem{
+    background-color: white;
+ }
+ .nav-link{
+    display: inline;
+ }
+ .nav-link:hover{
+    color: #2ab9f9;
+ }
+ .carousel-caption{
+    padding-bottom: 450px;
+    text-align: left;
+ }
+ .carousel-dark .carousel-caption {
+    color:white;
+    
+    }
+ .button-t{
+    padding: 10px 10px;
+ }
+ .about-bac{
+    background-color: white;
+    color: black;
+ }
+ .about-title-1{
+   border-right: 1px solid;
+    padding-right: 145px;
+ }
+ .Our-Trusted{
+    background-color: white;
+    color: black;
+ }
+ .img-slider{
+    background-color: white;
+    color: black;
+ }
+ .carousel-card{
+    background-color: white;
+    color: black;
+ }
+
+ .img-slider{
+    justify-content: space-between;
+ }
+.only-img-s{
+ padding-left: 55px;
+ padding-right: 25px;
+background-color: white;
+color: black;
+}
+
+
+
+
+
+
+
