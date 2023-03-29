@@ -1,4 +1,4 @@
-.row {
+.nav-fst {
     color: aliceblue;
     background-color: #002e5b;    ;
 
@@ -17,6 +17,7 @@
     color:blue;
 }
 .Career{
+    text-decoration: none;
     color: white;
 }
 .Career:hover {
@@ -40,6 +41,7 @@
 
 .gate-t {
     background-color: #2ab9f9;
+    text-decoration: none;
     ;
     color: aliceblue;
     padding-left: 30px;
@@ -52,9 +54,6 @@
     color:black;
     background-color: white;
 }
-/* .email{
-        width: 20px;
-        height: 30px; */
 
 .logo-truz {
     width: 25px;
@@ -64,6 +63,7 @@
     color: black;
 }
 .nav-2{
+    background-color: #002e5b;    ;
     position: sticky;
     top: 0px;
     /* background-color: white; */
@@ -128,13 +128,17 @@ justify-content:space-between;
  .img-lorem{
     background-color: white;
  }
- .nav-link{
+ /* .nav-link{
     display: inline;
- }
+ } */
  .nav-link:hover{
     color: #2ab9f9;
  }
+ .nav-link{
+    justify-content: center;
+ }
  .carousel-caption{
+    background-color:  #002e5b;
     padding-bottom: 450px;
     text-align: left;
  }
@@ -144,6 +148,21 @@ justify-content:space-between;
     }
  .button-t{
     padding: 10px 10px;
+ }
+ .Get-bc{
+    background-color: white;
+ }
+ /* .navbar-text {
+    align-items: center;
+    justify-content: space-between;
+ } */
+ .card-link{
+    justify-content: space-around;
+    padding: 20px;
+ }
+ .Our-exp{
+    padding-left: 30px;
+    color: black;
  }
  .about-bac{
     background-color: white;
@@ -175,7 +194,9 @@ justify-content:space-between;
 background-color: white;
 color: black;
 }
-
+.input-place{
+    margin: 10px;
+}
 
 
 
