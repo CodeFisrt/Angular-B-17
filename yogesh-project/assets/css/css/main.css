@@ -137,6 +137,9 @@ justify-content:space-between;
  .nav-link{
     justify-content: center;
  }
+ .carousel{
+    background-color:  #002e5b;
+ }
  .carousel-caption{
     background-color:  #002e5b;
     padding-bottom: 450px;
@@ -144,6 +147,7 @@ justify-content:space-between;
  }
  .carousel-dark .carousel-caption {
     color:white;
+    background-color:  #002e5b;
     
     }
  .button-t{
@@ -151,6 +155,7 @@ justify-content:space-between;
  }
  .Get-bc{
     background-color: white;
+    box-shadow: bisque;
  }
  /* .navbar-text {
     align-items: center;
@@ -197,7 +202,14 @@ color: black;
 .input-place{
     margin: 10px;
 }
+.button-free{
+    width: 100%;
 
+}
+.button-free:hover{
+    /* color: black; */
+color: cyan;
+}
 
 
 
