@@ -21,10 +21,13 @@ body {
 .carousel-indicators [data-bs-target] {
     bottom: 20%;
 }
+.carousel-caption{
+    left: 25% !important;
+}
 .caption span {
-    line-height: 100px;
+    /* line-height: 100px; */
     letter-spacing: 5px;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 .caption .hotel-name {
@@ -34,15 +37,15 @@ body {
 
 .caption h1 {
     font-weight: lighter;
-    font-size: 50px;
+    /* font-size: 50px; */
     text-align: center;
     letter-spacing: 16px;
-    line-height: 80px
+    /* line-height: 80px */
 }
 
 .caption .btn {
     font-family: var(--barlow);
-    font-size: 25px;
+    /* font-size: 25px; */
     letter-spacing: 3px;
 }
 
