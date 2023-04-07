@@ -294,22 +294,22 @@ body {
     background-image: url(../img/hotel-form-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    width: 100%;
+    /* height: 500px;
+    width: 100%; */
 }
-.hotel-booking-form .hotel-form{
+.hotel-form{
     background-color: #f8f5f0;
-    width: 80%;
-    margin-left: 20%;
+    /* width: 80%; */
+    /* margin-left: 20%; */
 }
 .hotel-form .hotel-form-button{
     background-color: #aa8453;
 }
 .hotel-booking-form-img{
-    height: 100px;
+    /* height: 100px; */
 }
 .hotel-booking-form-img .hotel-form-img img{
-    height: 160px;
+    /* height: 160px; */
     width: 160px;
 }
 /* footer */

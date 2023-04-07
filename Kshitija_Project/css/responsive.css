@@ -1,69 +1,29 @@
-
-
-@media only screen and (max-width:1024px)
- {
-   .caption{
-    margin-bottom: 100px;
+@media (max-widht:320px) {
+   .hotel-form{
+      width: none;
+      margin-left: none; 
    }
-   /* .carousel-caption{
-      position: absolute;
-   } */
-  
 }
 
- @media only screen and (max-width:768px) {
-    /* .caption h1{
-        font-size: 30px;
-        margin-bottom: 15px;
-        letter-spacing: 10px;
-        line-height: 50px;
-    } */
-     .caption{
-        margin-bottom: 50px;
-        line-height: 5px;
-       }
+@media (max-widht:375px) {
+   
+}
+@media (max-widht:425px) {
+   
+}
+@media (max-widht:576px) {
+   
+}
+@media (max-widht:768px) {
+   
+}
+@media (max-widht:1024px) {
+   
+}
+@media (max-widht:1400px) {
+   .hotel-form{
+      width: 80%;
+      margin-left: 20%; 
+   }
+}
 
-       /* .caption .btn{
-        
-        font-size: 20px;
-        letter-spacing: 2px;
-        margin-top: 30px;
-        padding: 5px 5px;
-        
-    } */ 
-    .reservation{
-        display: none;
-    }
-   
- }
- @media only screen and (max-width:425px) {
-    /* .caption h1{
-        font-size: 20px;
-        text-align: center;
-        letter-spacing: 1px;
-       line-height: 10px;
-       
-    } */
-    
-   
- }
- @media only screen and (min-width:375px){
-    /* .caption{
-      margin-bottom: 100px;
-       }
-       .caption h1{
-        font-size: 20px;
-        text-align: center;
-       letter-spacing: 5px;
-       line-height:25px;
-       
-    } */
-    /* .caption .btn{
-        
-        font-size: 15px;
-        letter-spacing: 3px;
-        margin-top: 15px;
-        padding: 0 1px;
-        
-    } */
- }
