@@ -8,44 +8,180 @@ custom
 
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
-@media (min-width: 320px) { 
+@media (min-width: 320px) {
     .mobile-img {
         height: auto;
     }
 
-    .information{
+    .information {
         text-align: start;
     }
- }
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+
+    .myimg {
+        display: flex;
+        margin: 0;
+
+    }
+
+    .col-mobile {
+        margin-top: 10px;
+    }
+
+    .col-water {
+        margin-top: 10px;
+    }
+
+    .shoppingimage {
+        margin: auto;
+
+    }
+
+    .shoppingtext {
+        text-align: center;
+    }
+
+    .countdown {
+        margin-top: 25px;
+    }
+
+
+    .headset-info {
+        margin-top: 20px;
+    }
+    .serach-div1 {
+        width: 100%;
+        /* margin-left: 7%; */
+    }
+
+    .info-text{
+        font-size: 10px;
+    }
     
- }
+    /* .waterimage1{
+        height: 200px;
+        width: 100px;
+    } */
+
+    /* .serach-div1{
+        width: 82%;
+        margin-left: 9%;
+    } */
+
+}
+
+@media (min-width: 375px) {
+    .serach-div1 {
+        width: 85%;
+        margin-left: 8%;
+    }
+    .info-text{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 425px) {
+    .serach-div1 {
+        width: 74%;
+        margin-left: 12%;
+    }
+    .info-text{
+        font-size: 14px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .col-mobile {
+        margin-top: 0;
+    }
+
+    .col-water {
+        margin-top: 0;
+    }
+
+    .shoppingimage {
+        margin: none;
+
+    }
+
+    .shoppingtext {
+        text-align: center;
+    }
+
+    .countdown {
+        margin-top: none;
+    }
+
+    .headset-info {
+        margin-top: none;
+    }
+    .info-text{
+        font-size: 16px;
+    }
+    
+
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    
- }
+@media (min-width: 768px) {
+    .waterimage {
+        height: 100px;
+        width: 100px;
+    }
+
+    .serach-div1 {
+        width: 46%;
+        margin-left: 24%;
+    }
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    
- }
+@media (min-width: 992px) {}
 
 /* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1024px) {
     .mobile-img {
         height: 596px;
+        /* margin: 2% 0; */
     }
 
-    .information{
+    .information {
         text-align: center;
         margin: 0 auto;
-        
+
     }
- }
+
+
+
+
+    .waterimage {
+        width: auto;
+        height: auto;
+    }
+
+    .serach-div1 {
+        width: 35%;
+        margin-left: 34%;
+    }
+
+
+}
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-    
- }
+@media (min-width: 1400px) {
+
+
+    .watch-apple {
+        height: auto;
+    }
+
+    .myimg {
+        display: block;
+    }
+
+    .serach-div1 {
+        width: 25%;
+        margin-left: 34%;
+    }
+
+}

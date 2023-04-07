@@ -49,9 +49,9 @@ body{
 
 .sports{
     background-image: url('/swaraj/img/sport.jpg');
-   
-    background-position: center;
-    /* height: 462px; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* height: 100%; */
     }
 
 .sports ul li a:hover{
@@ -66,6 +66,10 @@ body{
     height: 194px;
 }
 
+.oenplusmobile{
+    height: 150px;
+}
+
 .gameboximg{
     height: 220px;
 
@@ -73,10 +77,11 @@ body{
 
 .flashimg{
     background-image: url('/swaraj/img/flashimg.jpg');
-    background-position: center;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     /* height: 100%; */
-    height: 450px;
-    /* width: 90%; */
+    /* height: 450px; */
+    /* width: 100%; */
    
 }
 
@@ -89,8 +94,9 @@ body{
 
 .sports1{
     background-image: url('/swaraj/img/sport.jpg');
+    background-repeat: no-repeat;
    
-    background-position: center;
+    /* background-position: center; */
     /* background-repeat: no-repeat; */
     /* width: 100%; */
     height: 462px;
@@ -115,25 +121,25 @@ body{
 } */
 
 
-.laptopimg1{
-    width: 39.5%;
-}
+/* .waterimage1{
+    width: ;
+} */
 
-.bigearbudsimg{
+/* .bigearbudsimg{
     width: 36.5%;
-}
+} */
 
-.product-1{
+/* .product-1{
     width: 60%;
-}
+} */
 
-.product-2{
+/* .product-2{
     width: 44%;
 }
 
 .product-3{
     width: 40%;
-}
+} */
 
 .discount{
     background-image: url('/swaraj/img/discount-banner.jpg');
@@ -142,10 +148,7 @@ body{
     
 }
 
-.serach-div1{
-    width: 33%;
-    margin-left: 34%;
-}
+
 
 .feature1{
     text-decoration: none;

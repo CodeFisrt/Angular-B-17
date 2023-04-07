@@ -19,13 +19,17 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
+<script>
+
+</script>
+
 <body>
     <section>
         <div class="main-nav">
             <nav class="navbar navbar-expand border ">
                 <div class="container">
                     <div class="nav1">
-                        <div class="collapse navbar-collapse  "  id="navbarNav">
+                        <div class="collapse navbar-collapse  " id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" aria-current="page" href="#">Account</a>
@@ -95,7 +99,7 @@
             </nav>
         </div>
 
-        <div class="middle-nav text-center ">
+        <div class="middle-nav text-center d-none d-lg-block">
             <div class="container my-3 ">
                 <div class="second-nav d-flex gap-5">
                     <div class="logo ">
@@ -125,73 +129,31 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
-        <!-- <div class="mob d-md-block d-lg-none">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
 
-                    <div class="second-nav  ">
-                        <div class="logo ">
-                            <img src="img/logo.svg" alt="">
-                        </div>
-                        <div class="search-input  d-none d-lg-block">
-                            <div class="d-flex serach-div border">
-                                <div class=" text-center m-2">
-                                    <input type="text" class="text1" placeholder="Serach Product...">
-                                </div>
-                                <div class="border-start my-2"></div>
-                                <div class="w-50">
-                                    <select id="disabledSelect" class="form-select select-info ">
-                                        <option>All Categories</option>
-                                        <option>All Categories</option>
-                                        <option>All Categories</option>
-                                    </select>
-                                </div>
-                                <button type="submit" class="btn btn-warning ">Search</button>
-                            </div>
-                        </div>
-                        <div class="icons text-end w-25 d-flex">
-                            <a href="#" class="d-none d-lg-block"><i class="fa fa-rotate fa-rotate-90 text-dark"></i></a>
-                            <a href="#" class="d-none d-lg-block"><i class="fa-regular fa-heart text-dark"></i></a>
-                            <a href="#"><i class="fa fa-weight-hanging text-dark"></i></a>
-                            <a href="#" class="d-none d-lg-block"><i class="fa-regular fa-user text-dark"></i></a>
-                        </div>
+        <nav class="navbar bg-light d-lg-none  ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="logo ">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <div class="icons text-end  ">
+                    <a href="#"><i class="fa fa-weight-hanging text-dark"></i></a>
+                </div>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-                        <div class="container-fluid">
-                          <a class="navbar-brand" href="javascript:void(0)">Logo</a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="mynavbar">
-                            <ul class="navbar-nav me-auto">
-                              <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Link</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Link</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Link</a>
-                              </li>
-                            </ul>
-                            <form class="d-flex">
-                              <input class="form-control me-2" type="text" placeholder="Search">
-                              <button class="btn btn-primary" type="button">Search</button>
-                            </form>
-                          </div>
-                        </div>
-                      </nav>
-                    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
@@ -212,75 +174,20 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
-                            </li>
                         </ul>
-                        <form class="d-flex" role="search">
+                        <form class="d-flex mt-3" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
-            </nav>
-        </div>  -->
-
-        <!-- <nav class="navbar bg-light ">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="logo ">
-                    <img src="img/logo.svg" alt="">
-                </div>
-                <div class="icons text-end w-25 d-flex">
-                    <a href="#" class="d-none d-lg-block"><i class="fa fa-rotate fa-rotate-90 text-dark"></i></a>
-                    <a href="#" class="d-none d-lg-block"><i class="fa-regular fa-heart text-dark"></i></a>
-                    <a href="#"><i class="fa fa-weight-hanging text-dark"></i></a>
-                    <a href="#" class="d-none d-lg-block"><i class="fa-regular fa-user text-dark"></i></a>
-                </div>
-              
-              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-                </div>
-              </div>
             </div>
-        </nav> -->
+        </nav>
 
         <div class="last-nav bg-warning d-none d-lg-block">
-            <div class="container py-2">
-                <div class="category d-flex">
-                    <div class="select-category my-2  w-25">
+            <div class="container ">
+                <div class="category d-flex align-items-center">
+                    <div class="select-category w-25 me-4">
                         <select id="disabledSelect" class="form-select select-info ">
                             <option>All Categories</option>
                             <option>All Categories</option>
@@ -288,10 +195,10 @@
                         </select>
                     </div>
 
-                    <div class="last-link w-100 ms-5">
+                    <div class="last-link  w-100 ">
                         <nav class="navbar navbar-expand ">
                             <div class="collapse navbar-collapse nav-last " id="mynavbar">
-                                <ul class="navbar-nav me-auto gap-5 ">
+                                <ul class="navbar-nav mx-auto ul-list gap-4  ">
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" role="button"
                                             data-bs-toggle="dropdown">
@@ -363,7 +270,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                                <form class="d-flex text-end">
+                                <form action="#">
 
                                     <button class="btn btn-dark text-white" type="button">
                                         Become a Seller >
@@ -376,29 +283,29 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
 
-       
+
 
         <div class="add-info ">
             <div class="container">
-                <div class="row  pt-4  my-2">
-                    <div class="col-lg-8 col-md-12 col-sm-12 ">
+                <div class="row  pt-4 ">
+                    <div class="col-xl-8 col-lg-12 col-sm-12 ">
                         <a href="#">
-                            <img src="img/samsung.png" class="w-100 mobile-img" alt="Mobile">
+                            <img src="img/samsung.png" class=" w-100 mobile-img img-fluid" alt="Mobile">
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-12 col-sm-12 my-2 my-md-0">
+                    <div class="col-xl-4 col-lg-12 col-sm-12   myimg">
                         <div class="img1 ">
                             <a href="#">
                                 <img src="img/watch.png" class="watch-apple img-fluid" alt="Apple Watch">
                             </a>
                         </div>
 
-                        <div class="img2  mt-4 ">
+                        <div class="img2 mt-xl-4">
                             <a href="#">
-                                <img src="img/xbox.png" class="border xbox-version img-fluid" alt="Xbox Version">
+                                <img src="img/xbox.png" class=" xbox-version img-fluid" alt="Xbox Version">
                             </a>
                         </div>
                     </div>
@@ -450,7 +357,8 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
+
 
         <div class="gamer-world">
             <div class="container">
@@ -468,23 +376,25 @@
                 <div class="product">
                     <div class="row">
 
-                        <div class="col-lg-3 mt-3  border sports">
-                            <p>Mobile & Tablet</p>
-                            <ul class="list-unstyled ">
-                                <li><a href="#" class="text-dark"> Xioami </a></li>
-                                <li><a href="#" class="text-dark"> Apple </a></li>
-                                <li><a href="#" class="text-dark"> Google </a></li>
-                                <li><a href="#" class="text-dark"> Samsung </a></li>
-                            </ul>
-                            <a href="#">Shop Now ></a>
+                        <div class="col-xl-3 d-none d-xl-block ">
+                            <div class="list-mobile p-4 m-4  sports h-100 ">
+                                <p>Mobile & Tablet</p>
+                                <ul class="list-unstyled ">
+                                    <li><a href="#" class="text-dark"> Xioami </a></li>
+                                    <li><a href="#" class="text-dark"> Apple </a></li>
+                                    <li><a href="#" class="text-dark"> Google </a></li>
+                                    <li><a href="#" class="text-dark"> Samsung </a></li>
+                                </ul>
+                                <a href="#">Shop Now ></a>
+                            </div>
                         </div>
 
-                        <div class="col-lg-3 mt-3">
-                            <div class="card w-100">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
+                            <div class="card h-100">
                                 <div class="row mb-5">
                                     <div class="col-12"></div>
                                 </div>
-                                <img class="card-img-top w-75  mx-auto my-auto" src="img/gameremote.jpg"
+                                <img class="card-img-top w-75 img-fluid  mx-auto " src="img/gameremote.jpg"
                                     alt="Card image">
                                 <div class="card-body mt-3 ms-3">
                                     <div class="icons1">
@@ -512,7 +422,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 mt-3">
+                        <div class="col-xl-3 col-lg-4 mt-3 d-none d-lg-block">
                             <div class="card">
                                 <div class="available mt-3 container">
                                     <div class="info1">
@@ -524,8 +434,8 @@
                                         <div class="progress-bar pro-bar bg-warning"></div>
                                     </div>
                                 </div>
-                                <img class="card-img-top w-100  earphoneimg  mx-auto my-2" src="img/eraphone.jpg"
-                                    alt="Card image">
+                                <img class="card-img-top w-100 img-fluid  earphoneimg  mx-auto my-2"
+                                    src="img/eraphone.jpg" alt="Card image">
                                 <div class="card-body mt-3 ms-3">
                                     <div class="icons1">
                                         <i class="fa-sharp fa-solid fa-star text-warning"></i>
@@ -552,12 +462,12 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 mt-3">
-                            <div class="card">
+                        <div class="col-xl-3 col-lg-4 col-md-6  mt-3">
+                            <div class="card h-100">
                                 <div class="available mt-3 container">
                                     <span class="badge bg-success rounded-pill float-end">Product</span>
                                 </div>
-                                <img class="card-img-top w-75 gameboximg mx-auto my-2" src="img/gamebox.jpg"
+                                <img class="card-img-top w-75 img-fluid gameboximg mx-auto my-2" src="img/gamebox.jpg"
                                     alt="Card image">
                                 <div class="card-body mt-3 ms-3">
                                     <div class="icons1">
@@ -589,7 +499,7 @@
 
 
             </div>
-        </div> 
+        </div>
 
         <div class="shop-brand ">
             <div class="container  mt-4">
@@ -599,68 +509,68 @@
                     </div>
                 </div>
 
-                <div class="row bg-white">
+                <div class="row bg-white mx-1">
 
-                    <div class="col-lg-2 col-md-3 col-sm-6 border">
-                        <img src="img/oneplus.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border">
+                        <img src="img/oneplus.png" alt="" class="mx-auto my-5 d-block img-fluid">
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border">
-                        <img src="img/tencent.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border">
+                        <img src="img/tencent.png" alt="" class="mx-auto my-5 d-block img-fluid">
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border ">
-                        <img src="img/apple.png" alt="" class="mx-auto my-5 d-block">
-
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border ">
-                        <img src="img/microsoft.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border ">
+                        <img src="img/apple.png" alt="" class="mx-auto my-5 d-block img-fluid">
 
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border ">
-                        <img src="img/lenovo.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border ">
+                        <img src="img/microsoft.png" alt="" class="mx-auto my-5 d-block img-fluid">
 
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border ">
-                        <img src="img/huawei.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border ">
+                        <img src="img/lenovo.png" alt="" class="mx-auto my-5 d-block img-fluid">
+
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 border ">
+                        <img src="img/huawei.png" alt="" class="mx-auto my-5 d-block img-fluid">
 
                     </div>
 
 
 
 
-                    <div class="col-lg-2 col-md-3 col-sm-6 border  ">
-                        <img src="img/nexus.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border  ">
+                        <img src="img/nexus.png" alt="" class="mx-auto my-5 d-block img-fluid">
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border">
-                        <img src="img/google.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border">
+                        <img src="img/google.png" alt="" class="mx-auto my-5 d-block img-fluid">
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border">
-                        <img src="img/firefox.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border">
+                        <img src="img/firefox.png" alt="" class="mx-auto my-5 d-block img-fluid">
 
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border">
-                        <img src="img/tesla.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border">
+                        <img src="img/tesla.png" alt="" class="mx-auto my-5 d-block img-fluid">
 
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border ">
-                        <img src="img/brave.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border ">
+                        <img src="img/brave.png" alt="" class="mx-auto my-5 d-block img-fluid">
 
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 border">
-                        <img src="img/facebook.png" alt="" class="mx-auto my-5 d-block">
+                    <div class="col-lg-2 col-md-3 col-6 border">
+                        <img src="img/facebook.png" alt="" class="mx-auto my-5 d-block img-fluid">
 
                     </div>
                 </div>
 
             </div>
-        </div> 
+        </div>
 
-        <div class="flash-sale mt-5">
+        <!-- <div class="flash-sale mt-5">
             <div class="container">
-                <div class="row mx-1 ">
+                <div class="row ">
 
-                    <div class="col-lg-6   flashimg ">
+                    <div class="col-xl-6 col-12 flashimg    ">
 
-                        <div class="circles d-flex align-items-center justify-content-between  pt-5 px-5 ">
+                        <div class="circles d-flex  gap-5 pt-3   ">
                             <div class="countdown">
                                 <div class="rounded-circle bg-white d-flex align-items-center justify-content-center days"
                                     style="width: 100px; height: 100px;">
@@ -694,17 +604,20 @@
                                 </div>
                                 <p class=" h5 text-center">Seconds</p>
                             </div>
-                        </div>
 
-                        <div class="message mt-5 px-5">
+                            
+                        </div>
+                        <div class="message pt-5 ps-3">
                             <p class="h1 ">WOO! Flash Sale</p>
                             <a href="#" class="text-dark   text-decoration-none">Shop Now ></a>
                         </div>
+
+                        
                     </div>
 
                     
 
-                    <div class="col-lg-6 ">
+                    <div class="col-xl-6 col-12">
                         <div class="mobile-appversion pt-5 px-5 ">
 
                             <p>MOBILE APP VERSION</p>
@@ -715,18 +628,18 @@
                             <div class="image-store mt-4 d-flex gap-4">
                                 <div class="google-store">
                                     
-                                    <img src="img/googleplay.png" alt="google">
+                                    <img src="img/googleplay.png " class="img-fluid" alt="google">
                                 </div>
 
                                 <div class="apple-store">
                                    
-                                    <img src="img/apple-store.png" alt="apple">
+                                    <img src="img/apple-store.png" class="img-fluid" alt="apple">
                                 </div>
                             </div>
 
                             <div class="mobile-application mt-4 w-100">
                                 
-                                <img src="img/mobile-app.png" alt="">
+                                <img src="img/mobile-app.png" class="img-fluid" alt="">
 
                             </div>
 
@@ -735,7 +648,8 @@
                 </div>
 
             </div>
-        </div> 
+        </div>    -->
+
 
         <div class="top-selling">
             <div class="container">
@@ -748,16 +662,15 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6 ">
-                            <div class="col-md-12 border">
-                                <div
-                                    class="laptop-info d-flex justify-content-between align-items-center bg-white pt-5 ">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-lapto">
+                            <div class="col-xl-12 col-lg-12 col-md-12 border bg-white py-4 px-4">
+                                <div class="laptop-info d-flex justify-content-between align-items-center   ">
 
-                                    <div class="laptopimg">
-                                        <img src="img/laptop.jpg" class="mx-5" alt="">
+                                    <div class="laptopimg ">
+                                        <img src="img/laptop.jpg" class=" img-fluid " alt="">
                                     </div>
 
-                                    <div class="laptopinfo">
+                                    <div class="laptopinfo ms-3">
                                         <div class="icons1">
                                             <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -765,7 +678,7 @@
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                         </div>
-                                        <p class="card-text w-75 mt-3">
+                                        <p class="card-text  mt-3">
                                             <a href="#" class="text-dark">
                                                 <b>Senmei ipsum dolore eiusmod dolor officia do nisi
                                                 </b>
@@ -787,16 +700,15 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 ">
-                            <div class="col-md-12 border">
-                                <div
-                                    class="mobile-info d-flex justify-content-between align-items-center bg-white pt-5 ">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-mobile">
+                            <div class="col-xl-12 col-lg-12 col-md-12 border bg-white py-4 px-4">
+                                <div class="mobile-info d-flex  align-items-center  ">
 
                                     <div class="oneplusimg">
-                                        <img src="img/oneplusmobile.jpg" class="mx-3" alt="">
+                                        <img src="img/oneplusmobile.jpg" class=" img-fluid" alt="">
                                     </div>
 
-                                    <div class="oneplusinfo">
+                                    <div class="oneplusinfo ms-3">
                                         <div class="icons1">
                                             <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -804,7 +716,7 @@
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                         </div>
-                                        <p class="card-text w-75 mt-3">
+                                        <p class="card-text mt-3">
                                             <a href="#" class="text-dark">
                                                 <b>Canopoly duis voluptate dolor sunt sit adipisicing in
                                                 </b>
@@ -832,16 +744,15 @@
 
 
                     <div class="row mt-3">
-                        <div class="col-md-6 ">
-                            <div class="col-md-12 border">
-                                <div
-                                    class="laptop-info d-flex justify-content-between align-items-center bg-white pt-5 ">
+                        <div class="col-xl-6 col-lg-6 col-md-6 ">
+                            <div class="col-xl-12 col-lg-12 col-md-12 border bg-white py-4 px-4">
+                                <div class="laptop-info d-flex  align-items-center  ">
 
                                     <div class="laptopimg">
-                                        <img src="img/fan.jpg" class="mx-5" alt="">
+                                        <img src="img/fan.jpg" class="img-fluid" alt="">
                                     </div>
 
-                                    <div class="laptopinfo">
+                                    <div class="laptopinfo ms-2">
                                         <div class="icons1">
                                             <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -849,7 +760,7 @@
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                         </div>
-                                        <p class="card-text w-75 mt-3">
+                                        <p class="card-text  mt-3">
                                             <a href="#" class="text-dark">
                                                 <b>Unisure aliqua repreh ex cupt qui elit officia
                                                 </b>
@@ -871,16 +782,15 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 ">
-                            <div class="col-md-12 border">
-                                <div
-                                    class="mobile-info d-flex justify-content-between align-items-center bg-white pt-5 ">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-water ">
+                            <div class="col-xl-12 col-lg-12 col-md-12 border bg-white py-4 px-4">
+                                <div class="mobile-info d-flex  align-items-center  ">
 
                                     <div class="oneplusimg">
-                                        <img src="img/water.jpg" class="mx-3" alt="">
+                                        <img src="img/water.jpg" class="img-fluid waterimage" alt="">
                                     </div>
 
-                                    <div class="oneplusinfo">
+                                    <div class="oneplusinfo ms-3">
                                         <div class="icons1">
                                             <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -888,9 +798,9 @@
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                             <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                         </div>
-                                        <p class="card-text w-75 mt-3">
+                                        <p class="card-text  mt-3">
                                             <a href="#" class="text-dark">
-                                                <b>Kenegy consectetur id ex nulla in adipisicing deserunt
+                                                <b>Kenegy consectetur id ex nulla
                                                 </b>
                                             </a>
                                         </p>
@@ -917,7 +827,7 @@
 
                 </div>
             </div>
-        </div> 
+        </div>
 
 
         <div class="best-saller">
@@ -931,38 +841,38 @@
 
                 <div class="row">
 
-                    <div class="col-lg-2">
-                        <div class="countdown">
-                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center days"
+                    <div class="col-xl-2 col-lg-3 col-md-4  ">
+                        <div class="countdown ">
+                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center shoppingimage "
                                 style="width: 150px; height: 150px;">
                                 <span class="">
-                                    <img src="img/shopping.png" alt="shopping">
+                                    <img src="img/shopping.png" class="img-fluid " alt="shopping">
                                 </span>
 
                             </div>
-                            <p class=" h5 mx-4">Shopno BD</p>
+                            <p class=" shoppingtext h5 mx-4">Shopno BD</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-xl-2 col-lg-3 col-md-4">
                         <div class="countdown">
-                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center days"
+                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center shoppingimage "
                                 style="width: 150px; height: 150px;">
                                 <span class="">
-                                    <img src="img/cart.png" alt="shopping">
+                                    <img src="img/cart.png" class="img-fluid " alt="shopping">
                                 </span>
 
                             </div>
-                            <p class=" h5 mx-4">Eecoms Shop</p>
+                            <p class=" shoppingtext h5 mx-4">Eecoms Shop</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-xl-2 col-lg-3 d-none d-lg-block">
                         <div class="countdown">
-                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center days"
+                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center "
                                 style="width: 150px; height: 150px;">
                                 <span class="">
-                                    <img src="img/cartimg.png" alt="shopping">
+                                    <img src="img/cartimg.png" class="img-fluid" alt="shopping">
                                 </span>
 
                             </div>
@@ -970,38 +880,38 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-xl-2 col-lg-3 col-md-4">
                         <div class="countdown">
-                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center days"
+                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center shoppingimage "
                                 style="width: 150px; height: 150px;">
                                 <span class="">
-                                    <img src="img/shoppingbag.png" alt="shopping">
+                                    <img src="img/shoppingbag.png" class="img-fluid " alt="shopping">
                                 </span>
 
                             </div>
-                            <p class=" h5 mx-4">Rikayi Rox</p>
+                            <p class=" shoppingtext h5 mx-4">Rikayi Rox</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-xl-2  d-none d-xl-block">
                         <div class="countdown">
-                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center days"
+                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center "
                                 style="width: 150px; height: 150px;">
                                 <span class="">
-                                    <img src="img/security.png" alt="shopping">
+                                    <img src="img/security.png" class="img-fluid" alt="shopping">
                                 </span>
 
                             </div>
-                            <p class=" h5 mx-5">Habbriyi</p>
+                            <p class="  h5 mx-5">Habbriyi</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-xl-2 d-none d-xl-block">
                         <div class="countdown">
-                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center days"
+                            <div class="rounded-circle bg-white d-flex align-items-center justify-content-center "
                                 style="width: 150px; height: 150px;">
                                 <span class="">
-                                    <img src="img/bag.png" alt="shopping">
+                                    <img src="img/bag.png" class="img-fluid" alt="shopping">
                                 </span>
 
                             </div>
@@ -1020,39 +930,39 @@
 
 
             </div>
-        </div> 
+        </div>
 
 
-        <div class="headset-smart">
+        <div class="headset-smart mt-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 ">
-                        <div class="col-md-12 ">
-                            <div class="headset-info d-flex justify-content-between align-items-center  pt-5 ">
+                <div class="row ">
+                    <div class="col-xl-6 col-lg-6 col-md-6 ">
 
-                                <div class="headsetimg">
-                                    <img src="img/headset.png" class="" alt="">
-                                </div>
+                        <div class="headset-info   ">
+
+                            <div class="headsetimg">
+                                <img src="img/headset.png" class="img-fluid w-100" alt="">
                             </div>
                         </div>
+
                     </div>
 
 
-                    <div class="col-md-6 ">
-                        <div class="col-md-12 ">
-                            <div class="headset-info d-flex justify-content-between align-items-center  pt-5 ">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
 
-                                <div class="headsetimg">
-                                    <img src="img/smartwatch.png" class="" alt="">
-                                </div>
+                        <div class="headset-info  ">
+
+                            <div class="headsetimg">
+                                <img src="img/smartwatch.png" class="img-fluid w-100" alt="">
                             </div>
                         </div>
+
                     </div>
 
 
                 </div>
             </div>
-        </div> 
+        </div>
 
 
         <div class="popular-sales">
@@ -1069,10 +979,10 @@
                 </div>
 
                 <div class="product">
-                    <div class="row">
+                    <div class="row ">
 
-                        <div class="col-lg-3 mt-3  border sports1">
-                            <div class="electronics-list p-4">
+                        <div class="col-xl-3   d-none d-xl-block  ">
+                            <div class="electronics-list p-4 m-4  sports1 h-100">
                                 <p><b>Electronics</b></p>
                                 <ul class="list-unstyled ">
                                     <li><a href="#" class="text-dark"> Xioami </a></li>
@@ -1084,8 +994,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 mt-3">
-                            <div class="card">
+                        <div class="col-xl-3 col-lg-4 col-md-6 mt-3 ">
+                            <div class="card h-100">
                                 <div class="available mt-3 container">
                                     <div class="info1">
                                         <p class="d-flex justify-content-between">Prodcuts Available
@@ -1096,9 +1006,9 @@
                                         <div class="progress-bar pro-bar bg-warning"></div>
                                     </div>
                                 </div>
-                                <img class="card-img-top   earphoneimg  mx-auto my-2" src="img/oneplusmobile.jpg"
-                                    alt="Card image">
-                                <div class="card-body mt-3 ms-3">
+                                <img class="card-img-top w-100 img-fluid  oenplusmobile  mx-auto my-4"
+                                    src="img/oneplusmobile.jpg" alt="Card image">
+                                <div class="card-body mt-4 ms-3">
                                     <div class="icons1">
                                         <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                         <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1108,7 +1018,8 @@
                                     </div>
                                     <p class="card-text w-100 mt-3">
                                         <a href="#" class="text-dark">
-                                            <b>Canopoly duis voluptate dolor sunt sit adipisicing in
+                                            <b>
+                                                Canopoly duis voluptate dolor sunt sit adipisicing in
                                             </b>
                                         </a>
                                     </p>
@@ -1116,21 +1027,22 @@
                                     <div class="price d-flex gap-2 ">
                                         <div class="price1 text-secondary h5 ">
                                             <del><b> $39.27 </b></del>
+
                                         </div>
                                         <div class="price2 text-danger h5"><b>$10.42</b></div>
-                                    </div>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-3 mt-3">
-                            <div class="card w-100 ">
+                        <div class="col-xl-3 col-lg-4  mt-3 d-none d-lg-block">
+                            <div class="card h-100 ">
                                 <div class="row mb-5">
                                     <div class="col-12"></div>
                                 </div>
-                                <img class="card-img-top w-75  mx-auto my-2" src="img/fan.jpg" alt="Card image">
-                                <div class="card-body  ms-3">
+                                <img class="card-img-top w-75 img-fluid  mx-auto " src="img/fan.jpg" alt="Card image">
+                                <div class="card-body  ms-3 mt-3">
                                     <div class="icons1">
                                         <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                         <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1155,14 +1067,14 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 mt-3">
-                            <div class="card">
+                        <div class="col-xl-3 col-lg-4 mt-3 col-md-6  ">
+                            <div class="card h-100 ">
                                 <div class="available mt-3 container">
                                     <span class="badge bg-warning rounded-pill float-end">New</span>
                                 </div>
-                                <img class="card-img-top w-75 gameboximg mx-auto my-2" src="img/water.jpg"
+                                <img class="card-img-top w-75 img-fluid waterimage1 mx-auto my-2" src="img/water.jpg"
                                     alt="Card image">
-                                <div class="card-body mt-3 ms-3">
+                                <div class="card-body mt-3  ms-3">
                                     <div class="icons1">
                                         <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                         <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1192,7 +1104,7 @@
 
 
             </div>
-        </div> 
+        </div>
 
 
         <div class="headphonesadd ">
@@ -1215,12 +1127,13 @@
 
 
                 <div class="row">
-                    <div class="col-lg-3 mt-3">
-                        <div class="card w-100">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
+                        <div class="card h-100">
                             <div class="row mb-5">
                                 <div class="col-12"></div>
                             </div>
-                            <img class="card-img-top w-75  mx-auto my-auto" src="img/gameremote.jpg" alt="Card image">
+                            <img class="card-img-top w-75 img-fluid  mx-auto " src="img/gameremote.jpg"
+                                alt="Card image">
                             <div class="card-body mt-3 ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
@@ -1247,9 +1160,8 @@
                         </div>
                     </div>
 
-
-                    <div class="col-lg-3 mt-3">
-                        <div class="card">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3 ">
+                        <div class="card h-100">
                             <div class="available mt-3 container">
                                 <div class="info1">
                                     <p class="d-flex justify-content-between">Prodcuts Available
@@ -1260,7 +1172,7 @@
                                     <div class="progress-bar pro-bar bg-warning"></div>
                                 </div>
                             </div>
-                            <img class="card-img-top w-100  earphoneimg  mx-auto my-2" src="img/eraphone.jpg"
+                            <img class="card-img-top w-100 img-fluid  earphoneimg  mx-auto my-2" src="img/eraphone.jpg"
                                 alt="Card image">
                             <div class="card-body mt-3 ms-3">
                                 <div class="icons1">
@@ -1288,13 +1200,12 @@
                         </div>
                     </div>
 
-
-                    <div class="col-lg-3 mt-3">
-                        <div class="card">
+                    <div class="col-xl-3 col-lg-4 col-md-6  mt-3">
+                        <div class="card h-100">
                             <div class="available mt-3 container">
                                 <span class="badge bg-success rounded-pill float-end">Product</span>
                             </div>
-                            <img class="card-img-top w-75 gameboximg mx-auto my-2" src="img/gamebox.jpg"
+                            <img class="card-img-top w-75 img-fluid gameboximg mx-auto my-2" src="img/gamebox.jpg"
                                 alt="Card image">
                             <div class="card-body mt-3 ms-3">
                                 <div class="icons1">
@@ -1322,7 +1233,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mt-3">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
                         <div class="card">
                             <div class="available mt-3 container">
                                 <div class="info1">
@@ -1334,9 +1245,9 @@
                                     <div class="progress-bar pro-bar w-75 bg-warning"></div>
                                 </div>
                             </div>
-                            <img class="card-img-top w-75  earphoneimg  mx-auto my-2" src="img/laptop.jpg"
+                            <img class="card-img-top w-75 img-fluid earphoneimg  mx-auto my-2" src="img/laptop.jpg"
                                 alt="Card image">
-                            <div class="card-body mt-2 ms-3">
+                            <div class="card-body mt-3 ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1360,12 +1271,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
-                <div class="row">
+                
 
-                    <div class="col-lg-3 mt-3">
-                        <div class="card">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3 ">
+                        <div class="card h-100">
                             <div class="available mt-3 container">
                                 <div class="info1">
                                     <p class="d-flex justify-content-between">Prodcuts Available
@@ -1376,9 +1287,9 @@
                                     <div class="progress-bar pro-bar bg-warning"></div>
                                 </div>
                             </div>
-                            <img class="card-img-top   earphoneimg  mx-auto my-2" src="img/oneplusmobile.jpg"
-                                alt="Card image">
-                            <div class="card-body mt-3 ms-3">
+                            <img class="card-img-top w-100 img-fluid  oenplusmobile  mx-auto my-4"
+                                src="img/oneplusmobile.jpg" alt="Card image">
+                            <div class="card-body mt-4 ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1388,7 +1299,8 @@
                                 </div>
                                 <p class="card-text w-100 mt-3">
                                     <a href="#" class="text-dark">
-                                        <b>Canopoly duis voluptate dolor sunt sit adipisicing in
+                                        <b>
+                                            Canopoly duis voluptate dolor sunt sit adipisicing in
                                         </b>
                                     </a>
                                 </p>
@@ -1396,21 +1308,22 @@
                                 <div class="price d-flex gap-2 ">
                                     <div class="price1 text-secondary h5 ">
                                         <del><b> $39.27 </b></del>
+
                                     </div>
                                     <div class="price2 text-danger h5"><b>$10.42</b></div>
-                                </div>
 
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mt-3">
-                        <div class="card w-100 ">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
+                        <div class="card h-100 ">
                             <div class="row mb-5">
                                 <div class="col-12"></div>
                             </div>
-                            <img class="card-img-top w-75  mx-auto my-2" src="img/fan.jpg" alt="Card image">
-                            <div class="card-body  ms-3">
+                            <img class="card-img-top w-75 img-fluid  mx-auto " src="img/fan.jpg" alt="Card image">
+                            <div class="card-body  ms-3 mt-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1435,13 +1348,14 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mt-3">
-                        <div class="card">
+                    <div class="col-xl-3 col-lg-4  col-md-6 mt-3 ">
+                        <div class="card h-100 ">
                             <div class="available mt-3 container">
                                 <span class="badge bg-warning rounded-pill float-end">New</span>
                             </div>
-                            <img class="card-img-top w-75 gameboximg mx-auto my-2" src="img/water.jpg" alt="Card image">
-                            <div class="card-body mt-3 ms-3">
+                            <img class="card-img-top w-75 img-fluid waterimage1 mx-auto my-2" src="img/water.jpg"
+                                alt="Card image">
+                            <div class="card-body mt-3  ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1467,8 +1381,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mt-3">
-                        <div class="card">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
+                        <div class="card h-100">
                             <div class="available mt-3 container">
                                 <div class="info1">
                                     <p class="d-flex justify-content-between">Prodcuts Available
@@ -1479,9 +1393,9 @@
                                     <div class="progress-bar pro-bar bg-warning"></div>
                                 </div>
                             </div>
-                            <img class="card-img-top w-75   earphoneimg  mx-auto my-2" src="img/earbuds.jpg"
+                            <img class="card-img-top w-75 img-fluid  earphoneimg  mx-auto my-2" src="img/earbuds.jpg"
                                 alt="Card image">
-                            <div class="card-body mt-2 ms-3">
+                            <div class="card-body mt-3 ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1506,16 +1420,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                
 
-                <div class="row">
-                    <div class="col-lg-3 mt-3">
-                        <div class="card w-100">
+                
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
+                        <div class="card h-100">
                             <div class="row mb-5">
                                 <div class="col-12"></div>
                             </div>
-                            <img class="card-img-top w-75  mx-auto my-4" src="img/bigearbuds.jpg" alt="Card image">
-                            <div class="card-body mt-3 ms-3">
+                            <img class="card-img-top w-100 img-fluid  mx-auto " src="img/bigearbuds.jpg" alt="Card image">
+                            <div class="card-body mt-4 ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1523,7 +1437,7 @@
                                     <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                 </div>
-                                <p class="card-text w-100 mt-3">
+                                <p class="card-text w-100 mt-4">
                                     <a href="#" class="text-dark">
                                         <b>Anarco consectetur magna nostrud commodo tempor....
                                         </b>
@@ -1540,8 +1454,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mt-3">
-                        <div class="card">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
+                        <div class="card h-100">
 
                             <div class="available mt-3 container">
                                 <div class="info1">
@@ -1553,9 +1467,9 @@
                                     <div class="progress-bar pro-bar bg-warning"></div>
                                 </div>
                             </div>
-                            <img class="card-img-top blackgame w-75 mx-auto my-2" src="img/blackgamebox.jpg"
+                            <img class="card-img-top blackgame w-75 img-fluid mx-auto my-2" src="img/blackgamebox.jpg"
                                 alt="Card image">
-                            <div class="card-body mt-1  ms-3">
+                            <div class="card-body mt-4  ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1581,13 +1495,14 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mt-3">
-                        <div class="card w-100">
-                            <div class="available mt-3 container">
-                                <span class="badge bg-success rounded-pill float-end">Product</span>
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3">
+                        <div class="card h-100">
+                            <div class="row mb-5">
+                                <div class="col-12"></div>
                             </div>
-                            <img class="card-img-top w-75  mx-auto my-auto" src="img/gameremote.jpg" alt="Card image">
-                            <div class="card-body mt-2 ms-3">
+                            <img class="card-img-top w-75 img-fluid  mx-auto " src="img/gameremote.jpg"
+                                alt="Card image">
+                            <div class="card-body mt-3 ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1595,7 +1510,7 @@
                                     <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                 </div>
-                                <p class="card-text w-100 mt-3">
+                                <p class="card-text w-75 mt-3">
                                     <a href="#" class="text-dark">
                                         <b>Xoggle aute et
                                             pariatur adipisicing nostrud et....
@@ -1613,21 +1528,21 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 mt-3">
-                        <div class="card">
+                    <div class="col-xl-3 col-lg-4 col-md-6 mt-3 ">
+                        <div class="card h-100">
                             <div class="available mt-3 container">
                                 <div class="info1">
                                     <p class="d-flex justify-content-between">Prodcuts Available
-                                        <span>25</span>
+                                        <span>20</span>
                                     </p>
                                 </div>
                                 <div class="progress h-25">
-                                    <div class="progress-bar w-50 pro-bar bg-warning"></div>
+                                    <div class="progress-bar pro-bar bg-warning"></div>
                                 </div>
                             </div>
-                            <img class="card-img-top w-100  earphoneimg1  mx-auto my-2" src="img/eraphone.jpg"
+                            <img class="card-img-top w-100 img-fluid  earphoneimg  mx-auto my-2" src="img/eraphone.jpg"
                                 alt="Card image">
-                            <div class="card-body mt-2 ms-3">
+                            <div class="card-body mt-3 ms-3">
                                 <div class="icons1">
                                     <i class="fa-sharp fa-solid fa-star text-warning"></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning   "></i>
@@ -1635,19 +1550,19 @@
                                     <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                     <i class="fa-sharp fa-solid fa-star text-warning "></i>
                                 </div>
-                                <p class="card-text w-100 mt-3">
+                                <p class="card-text w-75 mt-3">
                                     <a href="#" class="text-dark">
                                         <b>
-                                            Empirica deserunt laborum ad quis labore labore eu
+                                            Geeky ipsum esse repreh est consequat
                                         </b>
                                     </a>
                                 </p>
 
                                 <div class="price d-flex gap-2 ">
                                     <div class="price1 text-secondary h5 ">
-                                        <del><b> $26.87 </b></del>
+                                        <del><b> $24.55 </b></del>
                                     </div>
-                                    <div class="price2 text-danger h5"><b>$29.14</b></div>
+                                    <div class="price2 text-danger h5"><b>$17.79</b></div>
                                 </div>
                             </div>
                         </div>
@@ -1656,7 +1571,7 @@
                 </div>
 
             </div>
-        </div> 
+        </div>
 
 
         <div class="watchadd">
@@ -1677,12 +1592,12 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="laptopimg">
-                                    <img src="img/gameremote.jpg" class="ms-5 mt-1 w-50 " alt="">
+                                    <img src="img/gameremote.jpg" class="ms-5 mt-1 w-50 mb-2 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1709,12 +1624,12 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="laptopimg1 ">
-                                    <img src="img/oneplusmobile.jpg" class="ms-3 mt-4 w-75 mb-2" alt="">
+                                    <img src="img/oneplusmobile.jpg" class="ms-3 mt-4 w-75 mb-2 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1741,12 +1656,12 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
-                                <div class="bigearbudsimg ">
-                                    <img src="img/bigearbuds.jpg" class="ms-3 mt-4 mb-2 w-75" alt="">
+                                <div class="bigearbudsimg w-50">
+                                    <img src="img/bigearbuds.jpg" class="ms-3 mt-4 mb-2 w-75 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1776,17 +1691,17 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100  ">
 
-                                <div class="product-1">
+                                <div class="product-1 w-50">
                                     <img src="img/eraphone.jpg" class="ms-3 mt-1 w-75 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
 
-                                    <p class="card-text w-75 mt-3 me-3">
+                                    <p class="card-text w-75 mt-3 ms-3">
                                         <a href="#" class="text-dark">
                                             <b>
                                                 Geeky ipsum esse repreh est...
@@ -1794,7 +1709,7 @@
                                         </a>
                                     </p>
 
-                                    <div class="price d-flex gap-2 ">
+                                    <div class="price d-flex gap-2 ms-3">
                                         <div class="price1 text-secondary h5 ">
                                             <del><b> $27.27 </b></del>
                                         </div>
@@ -1809,12 +1724,12 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="product-2">
-                                    <img src="img/fan.jpg" class="ms-4 mt-4 w-50 mb-2" alt="">
+                                    <img src="img/fan.jpg" class="ms-4 mt-4 w-50 mb-2 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1841,12 +1756,12 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="product-3">
-                                    <img src="img/blackgamebox.jpg" class="ms-5 mt-4 mb-2 w-50" alt="">
+                                    <img src="img/blackgamebox.jpg" class="ms-4 mt-4 mb-2 w-50 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1877,12 +1792,12 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100  ">
 
                                 <div class="product-1">
-                                    <img src="img/gamebox.jpg" class="ms-5 mt-1 w-50" alt="">
+                                    <img src="img/gamebox.jpg" class="ms-5 mt-1 w-50 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1910,12 +1825,12 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="product-2">
-                                    <img src="img/water.jpg" class="ms-4 mt-4 w-50 mb-2" alt="">
+                                    <img src="img/water.jpg" class="ms-4 mt-4 w-50 mb-2 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1943,12 +1858,12 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="product-3">
-                                    <img src="img/gameremote.jpg" class="ms-5 mt-4 mb-2 w-50" alt="">
+                                    <img src="img/gameremote.jpg" class="ms-4 mt-4 mb-2 w-50 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -1979,12 +1894,12 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="product-1">
-                                    <img src="img/laptop.jpg" class="ms-5 mt-2 w-50" alt="">
+                                    <img src="img/laptop.jpg" class="ms-5 mt-2 w-50 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -2012,12 +1927,12 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100 ">
 
                                 <div class="product-2">
-                                    <img src="img/earbuds.jpg" class="ms-4 mt-4 w-50 mb-2" alt="">
+                                    <img src="img/earbuds.jpg" class="ms-4 mt-4 w-50 mb-2 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
@@ -2045,17 +1960,17 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 ">
-                        <div class="col-md-12 border">
-                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white  ">
+                    <div class="col-lg-4 ">
+                        <div class="col-md-12 border h-100">
+                            <div class="laptop-info d-flex justify-content-between align-items-center bg-white h-100  ">
 
-                                <div class="product-1">
-                                    <img src="img/eraphone.jpg" class="ms-3 mt-1 w-75" alt="">
+                                <div class="product-1 w-50">
+                                    <img src="img/eraphone.jpg" class="ms-2 mt-1 w-75 img-fluid" alt="">
                                 </div>
 
                                 <div class="laptopinfo">
 
-                                    <p class="card-text w-75 mt-3 me-3">
+                                    <p class="card-text w-75 mt-3 ">
                                         <a href="#" class="text-dark">
                                             <b>
                                                 Geeky ipsum esse repreh est...
@@ -2063,7 +1978,7 @@
                                         </a>
                                     </p>
 
-                                    <div class="price d-flex gap-2 ">
+                                    <div class="price d-flex ">
                                         <div class="price1 text-secondary h5 ">
                                             <del><b> $27.27 </b></del>
                                         </div>
@@ -2083,24 +1998,25 @@
 
 
             </div>
-        </div>
+        </div> 
 
-        <div class="discount w-100 mt-5">
+    <div class="discount  mt-5">
             <div class="container">
                 <div class="discount-info text-center pt-5">
                     <p class="h1">Get <span class="text-warning"> 20% </span> Off Discount Coupon</p>
                     <p> by Subscribe our Newsletter </p>
 
                     <div class="d-flex serach-div1 border justify-content-between align-items-center   bg-white ">
-                        <div class=" d-flex justify-content-between align-items-center ">
-                            <span>
-                                <i class="fa-solid fa-envelope ms-4"></i>
+                        <div class="">
+                            <span >
+                                <i class="fa-solid fa-envelope ms-none ms-md-4 envelope"></i>
                             </span>
                             <input type="email" class="text1" placeholder="Email Address...">
+                        <input type="button" class="btn btn-sm btn-warning" value="Get Cupon">
+
                         </div>
 
                         
-                        <input type="button" class="btn btn-warning" value="Get Cupon">
                     </div>
                 </div>
 
@@ -2108,9 +2024,9 @@
 
 
             </div>
-        </div> 
+        </div>  
 
-
+        
         <div class="main-footer">
             <div class="container mt-5">
                 <div class="footer-logo text-center border-bottom border-2 ">
@@ -2159,29 +2075,35 @@
                 </div>
 
                 <div class="about-website mt-3">
-                    <div class="about-info d-flex justify-content-between  ">
-                        <div class="aboutus-icons d-flex justify-content-between align-items-center ">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-4">
                             <div class="info-icons">
-                                <i class="fa-brands fa-instagram mx-2"></i>
-                                <i class="fa-brands fa-facebook-f mx-2"></i>
-                                <i class="fa-brands fa-youtube mx-2"></i>
+                                <i class="fa-brands fa-instagram ms-2 "></i>
+                                <i class="fa-brands fa-facebook-f ms-2"></i>
+                                <i class="fa-brands fa-youtube ms-2"></i>
+                               
                             </div>
-                            <span class="text-secondary "> ©2022 <b class="text-dark"> Quomodosoft </b>All rights
+                            
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-8">
+                            <span class="text-secondary info-text"> ©2022 <b class="text-dark"> Quomodosoft </b>All rights
                                 reserved
                             </span>
-
                         </div>
-
-
-                        <div class="payment ">
-                            <img src="img/visa.png" class="img-fluid" alt="">
+                        <div class="col-xl-3 col-lg-2"></div>
+                        <div class="col-xl-3 col-lg-3 ">
+                            <div class="payment ">
+                                <img src="img/visa.png" class="img-fluid" alt="">
+                            </div>
                         </div>
                     </div>
+
+                    
 
 
                 </div>
             </div>
-        </div> 
+        </div>  
 
 
 
