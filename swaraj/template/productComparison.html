@@ -18,16 +18,11 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        <style>
-            .form-control::placeholder{
-                font-size: 15px;
-            }
-  
-           .templateColor {
+    <style>
+        .templateColor {
             background-color: rgb(255 250 239);
         }
-        
-        </style>
+    </style>
 </head>
 
 <script>
@@ -132,7 +127,7 @@
                             <button type="submit" class="btn btn-warning ">Search</button>
                         </div>
                     </div>
-                    <div class="icons text-end w-25 d-flex">
+                    <div class="icons text-end w-20 d-flex">
                         <a href="#" class="d-none d-lg-block"><i class="fa fa-rotate fa-rotate-90 text-dark"></i></a>
                         <a href="#" class="d-none d-lg-block"><i class="fa-regular fa-heart text-dark"></i></a>
                         <a href="#"><i class="fa fa-weight-hanging text-dark"></i></a>
@@ -163,7 +158,8 @@
                             <a href="#"><i class="fa fa-rotate fa-rotate-90 text-dark"></i></a>
                             <a href="#"><i class="fa-regular fa-heart text-dark"></i></a>
                         </div>
-                        <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
                     </div>
 
                     <form class="d-flex mt-3 mx-auto" role="search">
@@ -210,7 +206,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Baby Items</a>
                             </li>
-                           
+
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
@@ -226,7 +222,7 @@
                                 </ul>
                             </li> -->
                         </ul>
-                        
+
                     </div>
                 </div>
             </div>
@@ -333,73 +329,93 @@
             </div>
         </div>
 
-        <div class="track-order">
-            <div class="templateColor">
-            <div class="container">
-                <div class="pt-5 mb-5">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                          <li class="breadcrumb-item"><a class="text-decoration-none text-black" href="../index.html">Home</a></li>
-                          <li class="breadcrumb-item active text-black" aria-current="page">Track Order</li>
-                        </ol>
-                      </nav>
-                      <div class="text-center pb-5">
-                        <h1>Track Order</h1>
+        <div class="product-compaire">
+            <div class=" templateColor">
+                <div class="container">
+                    <div class="pt-5 mb-5">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a class="text-decoration-none text-black"
+                                        href="../index.html">Home</a></li>
+                                <li class="breadcrumb-item active text-black" aria-current="page">Compaire</li>
+                            </ol>
+                        </nav>
+                        <div class="text-center pb-5">
+                            <h1>Product Comparison</h1>
+                        </div>
                     </div>
+
                 </div>
-               
             </div>
-        </div>
             <div class="container ">
-                 <h4>Track Your Order</h4>
-                <p class="text-muted"> Enter your order taracking number and your secreet id.</p>
-                <div class="orderTrackingForm  bg-white p-4">
-                    <div class="row">
-                       
-                        <div class="col-8">
-                            <form action="#">
-                                <label for="" class="text-secondary">Order Trcaking Number*</label>
-                                <input type="text" name="" id="" class="form-control form-control-lg    my-2" placeholder="Order Number">
+                <div class="compaire-table  table-responsive">
+                    <table class="border table-bordered">
+                        <tbody>
+                            <tr class="">
+                                <td class="align-top w-25 pt-2">
+                                    <div class=" p-4 ">
+                                        <h1 class="fs-4 fw-semibold">Product Comparison</h1>
+                                        <p class="text-muted pt-2">Select products to see the differences and similarities
+                                            between them</p>
+                                    </div>
+                                </td>
 
-                                <label for="" class="text-secondary">Delivery Date</label>
-                                <input type="text" name="" id="" class="form-control form-control-lg   my-2" placeholder="27/09/2022">
-
-                                <button class="btn px-3 py-2 bg-black text-white my-2">Track Now</button>
-                            </form>
-                        </div>
-                        <div class="col-4 text-center my-auto ">
-                            <i class="fa fa-truck display-1 text-secondary"></i>
-                           
-                        </div>
-                  
-                    </div>
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                               
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                               
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                 </div>
-               
+
             </div>
 
         </div>
-
-
-
-       
-
-
-       
-
-       
-
-       
-
-
-       
-
-
-       
-
-
-       
-
 
         <div class="watchadd">
             <div class="container mt-5 ">
@@ -408,7 +424,7 @@
         </div>
 
 
-      
+
 
         <div class="discount  mt-5">
             <div class="container">
