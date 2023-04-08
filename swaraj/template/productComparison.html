@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../swaraj/bootstrap/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/myindex.css">
+    <link rel="stylesheet" href="../bootstrap/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css"
+        integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .templateColor {
+            background-color: rgb(255 250 239);
+        }
+    </style>
+</head>
+
+<script>
+
+</script>
+
+<body>
+    <section>
+        <div class="main-nav">
+            <nav class="navbar navbar-expand border ">
+                <div class="container">
+                    <div class="nav1">
+                        <div class="collapse navbar-collapse  " id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" aria-current="page" href="#">Account</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">Track Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" href="#">Support</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="nav2 d-none d-md-block ">
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown">
+                                        <span>
+                                            <img src="img/india.jpg" class="rounded-circle" alt="">
+                                        </span>India
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">India</a></li>
+                                        <li><a class="dropdown-item" href="#">USA</a></li>
+                                        <li><a class="dropdown-item" href="#">US</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown">USD</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Link</a></li>
+                                        <li><a class="dropdown-item" href="#">Another link</a></li>
+                                        <li><a class="dropdown-item" href="#">A third link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Languages</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Marathi</a></li>
+                                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                                        <li><a class="dropdown-item" href="#">English</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+
+        <div class="middle-nav text-center d-none d-lg-block">
+            <div class="container my-3 ">
+                <div class="second-nav d-flex gap-5">
+                    <div class="logo ">
+                        <img src="../img/logo.svg" alt="">
+                    </div>
+                    <div class="search-input  d-none d-lg-block">
+                        <div class="d-flex serach-div border">
+                            <div class=" text-center m-2">
+                                <input type="text" class="text1" placeholder="Serach Product...">
+                            </div>
+                            <div class="border-start my-2"></div>
+                            <div class="w-50">
+                                <select id="disabledSelect" class="form-select select-info ">
+                                    <option>All Categories</option>
+                                    <option>All Categories</option>
+                                    <option>All Categories</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-warning ">Search</button>
+                        </div>
+                    </div>
+                    <div class="icons text-end w-20 d-flex">
+                        <a href="#" class="d-none d-lg-block"><i class="fa fa-rotate fa-rotate-90 text-dark"></i></a>
+                        <a href="#" class="d-none d-lg-block"><i class="fa-regular fa-heart text-dark"></i></a>
+                        <a href="#"><i class="fa fa-weight-hanging text-dark"></i></a>
+                        <a href="#" class="d-none d-lg-block"><i class="fa-regular fa-user text-dark"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar bg-light d-lg-none  ">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="logo ">
+                    <img src="img/logo.svg" alt="">
+                </div>
+                <div class="icons text-end  ">
+                    <a href="#"><i class="fa fa-weight-hanging text-dark"></i></a>
+                </div>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <div class="icons w-25 d-flex align-items-center justify-content-center">
+                            <a href="#"><i class="fa fa-rotate fa-rotate-90 text-dark"></i></a>
+                            <a href="#"><i class="fa-regular fa-heart text-dark"></i></a>
+                        </div>
+                        <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <form class="d-flex mt-3 mx-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                    <div class="menu-list ms-4  mt-4">
+                        <p class="h4"><a href="#" class="text-decoration-none text-dark">Categories</a></p>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Mabile & Laptops </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gaming Entertainment</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Image & Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Vehicles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Furnitures</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sport </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Food & Drinks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fashion Accessories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Toilet & Sanitation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Makeup Corner</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Baby Items</a>
+                            </li>
+
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="last-nav bg-warning d-none d-lg-block">
+            <div class="container ">
+                <div class="category d-flex align-items-center">
+                    <div class="select-category w-25 me-4">
+                        <select id="disabledSelect" class="form-select select-info ">
+                            <option>All Categories</option>
+                            <option>All Categories</option>
+                            <option>All Categories</option>
+                        </select>
+                    </div>
+
+                    <div class="last-link  w-100 ">
+                        <nav class="navbar navbar-expand ">
+                            <div class="collapse navbar-collapse nav-last " id="mynavbar">
+                                <ul class="navbar-nav mx-auto ul-list gap-4  ">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown">
+                                            <b>
+                                                Homepage
+                                            </b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Home One</a></li>
+                                            <li><a class="dropdown-item" href="#">Home Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Home Three</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown">
+                                            <b>
+                                                Shop
+                                            </b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Home One</a></li>
+                                            <li><a class="dropdown-item" href="#">Home Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Home Three</a></li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown">
+                                            <b>
+                                                Pages
+                                            </b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Home One</a></li>
+                                            <li><a class="dropdown-item" href="#">Home Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Home Three</a></li>
+
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <b>
+                                                About
+                                            </b>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <b>
+                                                Blog
+                                            </b>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <b>
+                                                Contact
+                                            </b>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <form action="#">
+
+                                    <button class="btn btn-dark text-white" type="button">
+                                        Become a Seller >
+
+                                    </button>
+                                </form>
+                            </div>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-compaire">
+            <div class=" templateColor">
+                <div class="container">
+                    <div class="pt-5 mb-5">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a class="text-decoration-none text-black"
+                                        href="../index.html">Home</a></li>
+                                <li class="breadcrumb-item active text-black" aria-current="page">Compaire</li>
+                            </ol>
+                        </nav>
+                        <div class="text-center pb-5">
+                            <h1>Product Comparison</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container ">
+                <div class="compaire-table  table-responsive">
+                    <table class="border table-bordered">
+                        <tbody>
+                            <tr class="">
+                                <td class="align-top w-25 pt-2">
+                                    <div class=" p-4 ">
+                                        <h1 class="fs-4 fw-semibold">Product Comparison</h1>
+                                        <p class="text-muted pt-2">Select products to see the differences and similarities
+                                            between them</p>
+                                    </div>
+                                </td>
+
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                               
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                               
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                
+                                <td class="bg-white ">
+                                    <div class="p-3 text-center">
+                                        <input type="text" name="" id="" class="form-control">
+                                        <!-- <i class="fa-solid fa-magnifying-glass"></i>  -->
+                                        <img src="../img/compair-watch.jpg" alt="" class="mt-3 img-fluid">
+                                        <div class="mt-3 fw-bold">
+                                            <p>Apple MacBook Air 13.3-Inch Display</p>
+                                         <p class="text-danger"> $6.99</p>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="watchadd">
+            <div class="container mt-5 ">
+                <img src="img/watchadd.png" class="w-100 watchadd img-fluid " alt="">
+            </div>
+        </div>
+
+
+
+
+        <div class="discount  mt-5">
+            <div class="container">
+                <div class="discount-info text-center pt-5">
+                    <p class="h1">Get <span class="text-warning"> 20% </span> Off Discount Coupon</p>
+                    <p> by Subscribe our Newsletter </p>
+
+                    <div class="d-flex serach-div1 border justify-content-between align-items-center   bg-white ">
+                        <div class="">
+                            <span>
+                                <i class="fa-solid fa-envelope ms-none ms-md-4 envelope"></i>
+                            </span>
+                            <input type="email" class="text1" placeholder="Email Address...">
+                            <input type="button" class="btn btn-sm btn-warning" value="Get Cupon">
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+        <div class="main-footer">
+            <div class="container mt-5">
+                <div class="footer-logo text-center border-bottom border-2 ">
+                    <img src="img/logo.svg" class="mb-5" alt="">
+                </div>
+
+                <div class="footer-info mt-5  border-bottom border-2">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 ">
+                            <p><b>About us</b></p>
+                            <p>We know there are a lot of threa developers our
+                                but we pride into a firm in the industry.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 information  ">
+                            <p><b>Feature</b></p>
+                            <ul class="list-unstyled feature ">
+                                <li><a href="#" class="feature1 "> About Us </a></li>
+                                <li><a href="#" class="feature1 "> Terms Condition </a></li>
+                                <li><a href="#" class="feature1 "> Best Products </a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 information ">
+                            <p><b>General Links</b></p>
+                            <ul class="list-unstyled feature ">
+                                <li><a href="#" class="feature1 "> Blog </a></li>
+                                <li><a href="#" class="feature1 "> Tracking Order </a></li>
+                                <li><a href="#" class="feature1 "> Become Seller </a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-3 col-sm-3 information ">
+                            <p><b>Helpful</b></p>
+                            <ul class="list-unstyled feature ">
+                                <li><a href="#" class="feature1 "> Flash Sales </a></li>
+                                <li><a href="#" class="feature1 "> FAQ </a></li>
+                                <li><a href="#" class="feature1 "> Support </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-website mt-3">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-4">
+                            <div class="info-icons">
+                                <i class="fa-brands fa-instagram ms-2 "></i>
+                                <i class="fa-brands fa-facebook-f ms-2"></i>
+                                <i class="fa-brands fa-youtube ms-2"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-8">
+                            <span class="text-secondary info-text"> ©2022 <b class="text-dark"> Quomodosoft </b>All
+                                rights
+                                reserved
+                            </span>
+                        </div>
+                        <div class="col-xl-3 col-lg-2"></div>
+                        <div class="col-xl-3 col-lg-3 ">
+                            <div class="payment ">
+                                <img src="img/visa.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <!-- <script src="../swaraj/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../swaraj/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
