@@ -164,4 +164,36 @@ body{
 }
 
 
+/*-------------------- Wishlist-csss----------------- */
+
+.wishlist-wrapper{
+    background-color: #FFFAEF;
+    height: 173px;
+}
+
+.productimg1,.productimg2,.productimg3{
+    width: 15%;
+    height: 15%;
+}
+/* .productimg2{
+    width: 15%;
+    height: 50%;
+} */
+
+.color-circle{
+    width: 20px;
+    height: 20px;
+}
+
+.color-text,.color-size,.color-price,.color-quantity,.color-total,.color-cross{
+    width: 2%;
+}
+
+.product{
+    width: 8%;
+}
+
+.cart{
+    width: 70px;
+}
     
